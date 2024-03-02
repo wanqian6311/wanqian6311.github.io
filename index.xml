@@ -4,9 +4,25 @@
         <link>https://wanqian6311.github.io/</link>
         <description>欢迎来到Levin的小屋</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
-            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 02 Mar 2024 21:40:40 &#43;0800</lastBuildDate>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</lastBuildDate>
             <atom:link href="https://wanqian6311.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Hugo使用简单命令</title>
+    <link>https://wanqian6311.github.io/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[Hugo使用简单命令 新建一个网站 hugo new site quickstart 新建一篇文章 hugo new content posts/*****.md 预览网站 hugo server --buildDrafts hugo server -D 浏览器输入http://localhost:1313 或者12]]></description>
+</item>
+<item>
+    <title>Hugo中Loveit主题配置文档</title>
+    <link>https://wanqian6311.github.io/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Sat, 02 Mar 2024 22:29:44 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[主题配置文档 文档链接：https://hugoloveit.com/zh-cn/posts/]]></description>
+</item>
+<item>
     <title>SecureCRT&amp;FX安装教程</title>
     <link>https://wanqian6311.github.io/posts/06.securecrtfx%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
     <pubDate>Sat, 02 Mar 2024 21:40:40 &#43;0800</pubDate>
@@ -39,17 +55,17 @@
     <description><![CDATA[kali安装与优化 kali优化 使用vim编辑 sources.list vim /etc/apt/sources.list 国内的源 #清华大学 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free deb-src https://mirrors.tuna.tsinghua.edu.cn #中科大kali源 deb http://mirrors.ustc.edu.cn/kali kali main non-free contrib deb-src http://mirrors.ustc.edu.cn/kali kali main non-free contrib deb http://mirrors.ustc.edu.cn/kali-security kali/updates main contrib non-free #]]></description>
 </item>
 <item>
-    <title>github更新</title>
-    <link>https://wanqian6311.github.io/posts/01.%E4%BD%BF%E7%94%A8github%E6%9B%B4%E6%96%B0/</link>
-    <pubDate>Thu, 27 Apr 2023 11:01:02 &#43;0800</pubDate>
+    <title>Git克隆、推送等命令</title>
+    <link>https://wanqian6311.github.io/posts/git%E5%85%8B%E9%9A%86%E6%8E%A8%E9%80%81%E7%AD%89%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Wed, 26 Apr 2023 11:01:02 &#43;0800</pubDate>
     <author>Levin</author>
-    <guid>https://wanqian6311.github.io/posts/01.%E4%BD%BF%E7%94%A8github%E6%9B%B4%E6%96%B0/</guid>
-    <description><![CDATA[1.测试github功能 提交你的修改至本地库。 查看当前修改状态。 git status 添加所有修改过的文件。你也可以只添加某个文件。 git add . &ldquo;Add a new post&rdquo; 是 commit message. git commit -m]]></description>
+    <guid>https://wanqian6311.github.io/posts/git%E5%85%8B%E9%9A%86%E6%8E%A8%E9%80%81%E7%AD%89%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[Git命令 初始化 git init 作用： 初始化一个Git仓库。 详解： 在需要进行版本控制的目录中执行git init命令，会在该目录中创建一个.git子目录，]]></description>
 </item>
 <item>
     <title>使用Aircrack-ng破解WiFi密码</title>
     <link>https://wanqian6311.github.io/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</link>
-    <pubDate>Wed, 26 Apr 2023 22:45:56 &#43;0800</pubDate>
+    <pubDate>Tue, 25 Apr 2023 22:45:56 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</guid>
     <description><![CDATA[快速通道 1.安装： apt-get isntall aircrack-ng 2.查看网卡名字：ifconfig 3.设置网卡为监听模式：airmon-ng start wlan0 4.扫描附近的WIFI：airodu]]></description>

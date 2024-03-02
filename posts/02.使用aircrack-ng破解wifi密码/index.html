@@ -8,13 +8,13 @@
 <meta property="og:description" content="快速通道 1.安装： apt-get isntall aircrack-ng 2.查看网卡名字：ifconfig 3.设置网卡为监听模式：airmon-ng start wlan0 4.扫描附近的WIFI：airodu" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wanqian6311.github.io/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-26T22:45:56+08:00" />
-<meta property="article:modified_time" content="2023-04-26T22:45:56+08:00" /><meta property="og:site_name" content="Levin的小屋" />
+<meta property="article:published_time" content="2023-04-25T22:45:56+08:00" />
+<meta property="article:modified_time" content="2023-04-25T22:45:56+08:00" /><meta property="og:site_name" content="Levin的小屋" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="使用Aircrack-ng破解WiFi密码"/>
 <meta name="twitter:description" content="快速通道 1.安装： apt-get isntall aircrack-ng 2.查看网卡名字：ifconfig 3.设置网卡为监听模式：airmon-ng start wlan0 4.扫描附近的WIFI：airodu"/>
 <meta name="application-name" content="欢迎来到Levin的小屋">
-<meta name="apple-mobile-web-app-title" content="欢迎来到Levin的小屋"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="https://raw.githubusercontent.com/wanqian6311/Photos/main/Bolg_Photos/local_img/touxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wanqian6311.github.io/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/" /><link rel="next" href="https://wanqian6311.github.io/posts/01.%E4%BD%BF%E7%94%A8github%E6%9B%B4%E6%96%B0/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="欢迎来到Levin的小屋"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="https://raw.githubusercontent.com/wanqian6311/Photos/main/Bolg_Photos/local_img/touxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://wanqian6311.github.io/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/" /><link rel="next" href="https://wanqian6311.github.io/posts/git%E5%85%8B%E9%9A%86%E6%8E%A8%E9%80%81%E7%AD%89%E5%91%BD%E4%BB%A4/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -24,7 +24,7 @@
             "@type": "WebPage",
             "@id": "https:\/\/wanqian6311.github.io\/posts\/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81\/"
         },"genre": "posts","wordcount":  2037 ,
-        "url": "https:\/\/wanqian6311.github.io\/posts\/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81\/","datePublished": "2023-04-26T22:45:56+08:00","dateModified": "2023-04-26T22:45:56+08:00","publisher": {
+        "url": "https:\/\/wanqian6311.github.io\/posts\/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81\/","datePublished": "2023-04-25T22:45:56+08:00","dateModified": "2023-04-25T22:45:56+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -81,7 +81,7 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">使用Aircrack-ng破解WiFi密码</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levin</a>
 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-26">2023-04-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2037 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-25">2023-04-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2037 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -231,7 +231,7 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-04-26</span>
+                <span>Updated on 2023-04-25</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -249,7 +249,7 @@
     </div>
 
     <div class="post-nav">
-            <a href="/posts/01.%E4%BD%BF%E7%94%A8github%E6%9B%B4%E6%96%B0/" class="next" rel="next" title="github更新">github更新<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+            <a href="/posts/git%E5%85%8B%E9%9A%86%E6%8E%A8%E9%80%81%E7%AD%89%E5%91%BD%E4%BB%A4/" class="next" rel="next" title="Git克隆、推送等命令">Git克隆、推送等命令<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">
