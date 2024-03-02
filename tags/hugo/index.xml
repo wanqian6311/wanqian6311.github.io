@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo - Tag - Levin的小屋</title>
+        <link>https://wanqian6311.github.io/tags/hugo/</link>
+        <description>Hugo - Tag - Levin的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo使用简单命令</title>
+    <link>https://wanqian6311.github.io/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[Hugo使用简单命令 新建一个网站 hugo new site quickstart 新建一篇文章 hugo new content posts/*****.md 预览网站 hugo server --buildDrafts hugo server -D 浏览器输入http://localhost:1313 或者12]]></description>
+</item>
+<item>
+    <title>Hugo中Loveit主题配置文档</title>
+    <link>https://wanqian6311.github.io/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Sat, 02 Mar 2024 22:29:44 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[主题配置文档 文档链接：https://hugoloveit.com/zh-cn/posts/]]></description>
+</item>
+</channel>
+</rss>
