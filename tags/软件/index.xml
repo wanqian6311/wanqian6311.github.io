@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>软件 - Tag - Levin的小屋</title>
+        <link>https://wanqian6311.github.io/tags/%E8%BD%AF%E4%BB%B6/</link>
+        <description>软件 - Tag - Levin的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 02 Mar 2024 21:40:40 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/tags/%E8%BD%AF%E4%BB%B6/" rel="self" type="application/rss+xml" /><item>
+    <title>SecureCRT&amp;FX安装教程</title>
+    <link>https://wanqian6311.github.io/posts/06.securecrtfx%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
+    <pubDate>Sat, 02 Mar 2024 21:40:40 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/posts/06.securecrtfx%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
+    <description><![CDATA[SecureCRT&amp;FX安装教程 1.安装软件 2.以管理员身份运行XFORCE 3.选择CRT&amp;FX 4.点击Generate 5.]]></description>
+</item>
+</channel>
+</rss>
