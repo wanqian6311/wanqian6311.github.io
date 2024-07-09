@@ -17,8 +17,9 @@ for index, row in df.iterrows():
     data.append({
         "id": id,
         "title": title,
-        "options": options,
-        "answer": answer
+        "option": options,
+        "answer": answer,
+        "analysis": ""
     })
 
 # 将字典列表转换为JSON格式并保存到文件
