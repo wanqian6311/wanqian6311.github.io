@@ -149,5 +149,27 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.5.4/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"data":{"id-1":"存放学习编程/kali命令/web安全资料的小屋"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@8.5.4/dist/index.umd.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"data":{"id-1":"存放学习编程/kali命令/web安全资料的小屋"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script>
+    	<script type="text/javascript" src="/static/js/loginbg.js"></script>
+	<script>
+    window.onload = function () {
+        //配置
+        var config = {
+            vx: 4, //小球x轴速度,正为右，负为左
+            vy: 4, //小球y轴速度
+            height: 2, //小球高宽，其实为正方形，所以不宜太大
+            width: 2,
+            count: 200, //点个数
+            color: "0, 0, 0", //点颜色
+            stroke: "26,129,197", //线条颜色
+            dist: 6000, //点吸附距离
+            e_dist: 20000, //鼠标吸附加速距离
+            max_conn: 10 //点到点最大连接数
+        };
+
+        //调用
+        CanvasParticle(config);
+    };
+</script>
+    </body>
 </html>
