@@ -674,8 +674,10 @@
         "id": "57",
         "title": "在安全计算环境-安全设备控制点中的“应重命名或删除默认账户，修改默认账户的默认口令。”中，不应具有下列哪个账户的用户名。（    ）",
         "option": [
-            "root              B．admin",
-            "topsec_a          D．administrator"
+            "root",
+            "admin",
+            "topsec_a",
+            "administrator"
         ],
         "answer": "ABD",
         "analysis": ""
