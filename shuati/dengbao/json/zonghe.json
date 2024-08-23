@@ -3774,7 +3774,10 @@
         "id": "445566316",
         "title": "Linux系统查看目录权限的命令是（    ）",
         "option": [
-            "ls-a      ls-l    ls-m     ls-s"
+            "ls -a",
+            "ls -l",
+            "ls -m",
+            "ls -s"
         ],
         "answer": "B",
         "analysis": ""
