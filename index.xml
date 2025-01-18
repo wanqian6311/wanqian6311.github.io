@@ -4,7 +4,7 @@
         <link>https://wanqian6311.github.io/blog/</link>
         <description>欢迎来到Levin的小屋</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
-            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 11 May 2024 12:13:15 &#43;0800</lastBuildDate>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sun, 19 Jan 2025 00:40:01 &#43;0800</lastBuildDate>
             <atom:link href="https://wanqian6311.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>云空调</title>
@@ -13,6 +13,14 @@
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/%E4%BA%91%E7%A9%BA%E8%B0%83/</guid>
     <description><![CDATA[学习爱好者]]></description>
+</item>
+<item>
+    <title>kali测试</title>
+    <link>https://wanqian6311.github.io/blog/posts/09.kali%E6%B5%8B%E8%AF%95/</link>
+    <pubDate>Sun, 19 Jan 2025 00:40:01 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/blog/posts/09.kali%E6%B5%8B%E8%AF%95/</guid>
+    <description><![CDATA[kali安装与优化 12341243214]]></description>
 </item>
 <item>
     <title>等级保护（第一阶段）学习笔记</title>
@@ -77,14 +85,6 @@
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/git%E5%85%8B%E9%9A%86%E6%8E%A8%E9%80%81%E7%AD%89%E5%91%BD%E4%BB%A4/</guid>
     <description><![CDATA[Git命令 初始化 git init 作用： 初始化一个Git仓库。 详解： 在需要进行版本控制的目录中执行git init命令，会在该目录中创建一个.git子目录，]]></description>
-</item>
-<item>
-    <title>使用Aircrack-ng破解WiFi密码</title>
-    <link>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</link>
-    <pubDate>Tue, 25 Apr 2023 22:45:56 &#43;0800</pubDate>
-    <author>Levin</author>
-    <guid>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</guid>
-    <description><![CDATA[快速通道 1.安装： apt-get isntall aircrack-ng 2.查看网卡名字：ifconfig 3.设置网卡为监听模式：airmon-ng start wlan0 4.扫描附近的WIFI：airodu]]></description>
 </item>
 </channel>
 </rss>
