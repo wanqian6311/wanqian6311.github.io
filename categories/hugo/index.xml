@@ -3,24 +3,14 @@
         <title>Hugo - Category - Levin的小屋</title>
         <link>https://wanqian6311.github.io/blog/categories/hugo/</link>
         <description>Hugo - Category - Levin的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/categories/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/categories/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo使用简单命令</title>
     <link>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</link>
     <pubDate>Sat, 02 Mar 2024 22:34:07 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</guid>
-    <description><![CDATA[<h1 id="hugo使用简单命令">Hugo使用简单命令</h1>
-<h2 id="新建一个网站">新建一个网站</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo new site quickstart
-</span></span></code></pre></div><h2 id="新建一篇文章">新建一篇文章</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo new content posts/*****.md
-</span></span></code></pre></div><h2 id="预览网站">预览网站</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo server --buildDrafts
-</span></span><span class="line"><span class="cl">hugo server -D
-</span></span></code></pre></div><p>浏览器输入http://localhost:1313 或者127.0.0.1:1313 预览网站</p>
-<h2 id="生成page文件">生成page文件</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo
-</span></span></code></pre></div><p>默认情况下,所有文章和页面均作为草稿创建.如果想要渲染这些页面,请从元数据中删除属性 draft: true, 设置属性 draft: false 或者为 hugo 命令添加 -D/&ndash;buildDrafts 参数.</p>]]></description>
+    <description><![CDATA[Hugo使用简单命令 新建一个网站 hugo new site quickstart 新建一篇文章 hugo new content posts/*****.md 预览网站 hugo server --buildDrafts hugo server -D 浏览器输入http://localhost:1313 或者12]]></description>
 </item>
 <item>
     <title>Hugo中Loveit主题配置文档</title>
@@ -28,9 +18,7 @@
     <pubDate>Sat, 02 Mar 2024 22:29:44 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid>
-    <description><![CDATA[<h1 id="主题配置文档">主题配置文档</h1>
-<p>文档链接：<a href="https://hugoloveit.com/zh-cn/posts/" target="_blank" rel="noopener noreffer">https://hugoloveit.com/zh-cn/posts/</a>
-</p>]]></description>
+    <description><![CDATA[主题配置文档 文档链接：https://hugoloveit.com/zh-cn/posts/]]></description>
 </item>
 </channel>
 </rss>

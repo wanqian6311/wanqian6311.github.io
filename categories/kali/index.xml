@@ -1,23 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Kali - Category - Levin的小屋</title>
+        <title>kali - Category - Levin的小屋</title>
         <link>https://wanqian6311.github.io/blog/categories/kali/</link>
-        <description>Kali - Category - Levin的小屋</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 04 Jun 2023 22:50:01 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/categories/kali/" rel="self" type="application/rss+xml" /><item>
+        <description>kali - Category - Levin的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sun, 04 Jun 2023 22:50:01 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/categories/kali/" rel="self" type="application/rss+xml" /><item>
     <title>制作kali移动U盘使用EFI启动</title>
     <link>https://wanqian6311.github.io/blog/posts/05.%E5%88%B6%E4%BD%9Ckali%E7%A7%BB%E5%8A%A8u%E7%9B%98%E4%BD%BF%E7%94%A8efi%E5%90%AF%E5%8A%A8/</link>
     <pubDate>Sun, 04 Jun 2023 22:50:01 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/05.%E5%88%B6%E4%BD%9Ckali%E7%A7%BB%E5%8A%A8u%E7%9B%98%E4%BD%BF%E7%94%A8efi%E5%90%AF%E5%8A%A8/</guid>
-    <description><![CDATA[<h1 id="制作kali移动u盘系统启动问题">制作kali移动U盘系统启动问题</h1>
-<h2 id="1使用guid分区能否使用efi启动的关键">1.使用guid分区★★★★★（能否使用EFI启动的关键）</h2>
-<p>建立EFI分区</p>
-<h2 id="2识别不到启动项">2.识别不到启动项</h2>
-<p>拷贝 boot/kali/grubx64.efi    boot/grubx64.efi 到EFI分区</p>
-<h2 id="3进入了niramfs模式异常关机引起的">3.进入了niramfs模式（异常关机引起的）</h2>
-<p>① 使用blkid命令查看哪个分区出问题 一般是ext4的系统分区</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">blkid
-</span></span></code></pre></div><p>② 使用命令 fsck命令修复系统盘 假定系统盘为sda1</p>]]></description>
+    <description><![CDATA[制作kali移动U盘系统启动问题 1.使用guid分区★★★★★（能否使用EFI启动的关键） 建立EFI分区 2.识别不到启动项 拷贝 boot/kali/grubx64.efi boot/grubx64.efi 到EFI分]]></description>
 </item>
 <item>
     <title>kali安装中文输入法</title>
@@ -25,14 +18,7 @@
     <pubDate>Sun, 04 Jun 2023 22:45:01 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
-    <description><![CDATA[<p>#kali中文输入法</p>
-<p>安装输入法框架</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get install fcitx
-</span></span></code></pre></div><p>安装谷歌输入法</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get install fcitx-googlepinyin
-</span></span></code></pre></div><p>重启</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">reboot
-</span></span></code></pre></div>]]></description>
+    <description><![CDATA[#kali中文输入法 安装输入法框架 apt-get install fcitx 安装谷歌输入法 apt-get install fcitx-googlepinyin 重启 reboot]]></description>
 </item>
 <item>
     <title>kali换更新源</title>
@@ -40,52 +26,7 @@
     <pubDate>Sun, 04 Jun 2023 22:40:01 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/04.kali%E6%8D%A2%E6%9B%B4%E6%96%B0%E6%BA%90/</guid>
-    <description><![CDATA[<h1 id="kali安装与优化">kali安装与优化</h1>
-<h2 id="kali优化">kali优化</h2>
-<p>使用vim编辑 sources.list</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">vim /etc/apt/sources.list
-</span></span></code></pre></div><p>国内的源</p>
-<pre tabindex="0"><code class="language-bsah" data-lang="bsah">#清华大学
-deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free
-deb-src https://mirrors.tuna.tsinghua.edu.cn
-</code></pre><pre tabindex="0"><code class="language-bsah" data-lang="bsah">#中科大kali源
-deb http://mirrors.ustc.edu.cn/kali kali main non-free contrib
-deb-src http://mirrors.ustc.edu.cn/kali kali main non-free contrib
-deb http://mirrors.ustc.edu.cn/kali-security kali/updates main contrib non-free
-</code></pre><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#新加坡kali源</span>
-</span></span><span class="line"><span class="cl">deb http://mirror.nus.edu.sg/kali/kali/ kali main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirror.nus.edu.sg/kali/kali/ kali main non-free contrib
-</span></span><span class="line"><span class="cl">deb http://security.kali.org/kali-security kali/updates main contrib non-free
-</span></span><span class="line"><span class="cl">deb http://mirror.nus.edu.sg/kali/kali-security kali/updates main contrib non-free
-</span></span><span class="line"><span class="cl">deb-src http://mirror.nus.edu.sg/kali/kali-security kali/updates main contrib non-free
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#阿里云kali源</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.aliyun.com/kali kali main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.aliyun.com/kali kali main non-free contrib
-</span></span><span class="line"><span class="cl">deb http://mirrors.aliyun.com/kali-security kali/updates main contrib non-free
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#163 Kali源</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.163.com/debian wheezy main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.163.com/debian wheezy main non-free contrib
-</span></span><span class="line"><span class="cl">deb http://mirrors.163.com/debian wheezy-proposed-updates main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.163.com/debian wheezy-proposed-updates main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.163.com/debian-security wheezy/updates main non-free contrib
-</span></span><span class="line"><span class="cl">deb http://mirrors.163.com/debian-security wheezy/updates main non-free contrib
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#阿里云kali源</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.aliyun.com/kali kali-rolling main non-free contrib
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#中科大</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#浙大</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.zju.edu.cn/kali kali-rolling main contrib non-free
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#东软大学</span>
-</span></span><span class="line"><span class="cl">deb http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
-</span></span><span class="line"><span class="cl">deb-src http://mirrors.neusoft.edu.cn/kali kali-rolling/main non-free contrib
-</span></span></code></pre></div><h2 id="kali更新">kali更新</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get update
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get upgrade
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get autoclean
-</span></span></code></pre></div>]]></description>
+    <description><![CDATA[kali安装与优化 kali优化 使用vim编辑 sources.list vim /etc/apt/sources.list 国内的源 #清华大学 deb http://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main contrib non-free deb-src https://mirrors.tuna.tsinghua.edu.cn #中科大kali源 deb http://mirrors.ustc.edu.cn/kali kali main non-free contrib deb-src http://mirrors.ustc.edu.cn/kali kali main non-free contrib deb http://mirrors.ustc.edu.cn/kali-security kali/updates main contrib non-free #]]></description>
 </item>
 </channel>
 </rss>
