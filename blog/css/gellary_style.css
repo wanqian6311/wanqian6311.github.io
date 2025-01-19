@@ -13,6 +13,12 @@
     user-select: none
 }
 
+.item[data-v-9c46fcc4]::marker {
+  display: none; /* 隐藏 `::marker` 伪元素 */
+}
+
+
+
 :lang(en) .title[data-v-2d46ff28] {
     font-weight: 500
 }
