@@ -165,46 +165,63 @@
 
   
   function createExifInfoElement(exifInfo) {
-    var exifElement = $('<div class="exif"></div>');
-    var metabarElement = $('<div class="metabar"></div>');
-    var barElement = $('<div class="bar"></div>');
-    var itemsElement = $('<ul class="items"></ul>');
+  var exifElement = $('<div class="exif"></div>');
+  var metabarElement = $('<div data-v-9c46fcc4 class="metabar"></div>');
+  var barElement = $('<div data-v-9c46fcc4 class="bar"></div>');
+  var itemsElement = $('<ul data-v-9c46fcc4 body-scroll-lock-ignore class="items"></ul>');
 
-    var exifInfoTemplate = `
-      <li class="item category clickable">
-        <h5 class="title">DateTime</h5>
-        <span>${exifInfo.dateTime}</span>
-      </li>
-      <li class="item exif clickable">
-        <h5 class="title">EXIF</h5>
-        <ul>
-          <li><span>${exifInfo.FocalLength}mm</span></li>
-          <li><span>ƒ/${exifInfo.ApertureValue}</span></li>
-          <li><span>${exifInfo.exposureTime}s</span></li>
-          <li><span>${exifInfo.isoSpeedRatings}</span></li>
-        </ul>
-      </li>
-      <li class="item location clickable">
-        <h5 class="title">Location</h5>
-        <span>经度：${exifInfo.GPSLongitude} 纬度：${exifInfo.GPSLatitude}</span>
-      </li>
-      <li class="item camera clickable">
-        <h5 class="title">Camera</h5>
-        <span>${exifInfo.make}</span>
-      </li>
-      <li class="item lens clickable">
-        <h5 class="title">Model</h5>
-        <span>${exifInfo.model}</span>
-      </li>
-    `;
+  var exifInfoTemplate = `
+    <li data-v-2d46ff28 data-v-9c46fcc4 class="item category clickable">
+      <h5 data-v-2d46ff28 class="title">DateTime</h5>
+      <span data-v-9c46fcc4 data-v-2d46ff28>${exifInfo.dateTime}</span>
+    </li>
+    <li data-v-2d46ff28 data-v-9c46fcc4 class="item exif clickable">
+      <h5 data-v-2d46ff28 class="title">EXIF</h5>
+      <ul data-v-9c46fcc4  data-v-2d46ff28>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="focus">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.FocalLength}mm</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="aperture">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>ƒ/${exifInfo.ApertureValue}</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="shutter">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.exposureTime}s</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="iso">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.isoSpeedRatings}</span>
+        </li>
+      </ul>
+    </li>
+     <li data-v-9c46fcc4  data-v-2d46ff28 class="item location clickable">
+      <h5 data-v-2d46ff28 class="title">Location</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>经度：${exifInfo.GPSLongitude} 纬度：${exifInfo.GPSLatitude}</span>
+    </li>
+    <li data-v-9c46fcc4  data-v-2d46ff28 class="item camera clickable">
+      <h5 data-v-2d46ff28 class="title">Camera</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.make}</span>
+    </li>
+    <li  data-v-9c46fcc4  data-v-2d46ff28 class="item lens clickable">
+      <h5 data-v-2d46ff28 class="title">Model</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.model}</span>
+    </li>
+  `;
 
-    itemsElement.append(exifInfoTemplate);
-    barElement.append(itemsElement);
-    metabarElement.append(barElement);
-    exifElement.append(metabarElement);
+  itemsElement.append(exifInfoTemplate);
+  barElement.append(itemsElement);
+  metabarElement.append(barElement);
+  exifElement.append(metabarElement);
 
-    return exifElement;
-  }
+  return exifElement;
+}
+
 
   
   function formatDateTime(dateTimeString) {
@@ -281,46 +298,63 @@
 
   
   function createExifInfoElement(exifInfo) {
-    var exifElement = $('<div class="exif"></div>');
-    var metabarElement = $('<div class="metabar"></div>');
-    var barElement = $('<div class="bar"></div>');
-    var itemsElement = $('<ul class="items"></ul>');
+  var exifElement = $('<div class="exif"></div>');
+  var metabarElement = $('<div data-v-9c46fcc4 class="metabar"></div>');
+  var barElement = $('<div data-v-9c46fcc4 class="bar"></div>');
+  var itemsElement = $('<ul data-v-9c46fcc4 body-scroll-lock-ignore class="items"></ul>');
 
-    var exifInfoTemplate = `
-      <li class="item category clickable">
-        <h5 class="title">DateTime</h5>
-        <span>${exifInfo.dateTime}</span>
-      </li>
-      <li class="item exif clickable">
-        <h5 class="title">EXIF</h5>
-        <ul>
-          <li><span>${exifInfo.FocalLength}mm</span></li>
-          <li><span>ƒ/${exifInfo.ApertureValue}</span></li>
-          <li><span>${exifInfo.exposureTime}s</span></li>
-          <li><span>${exifInfo.isoSpeedRatings}</span></li>
-        </ul>
-      </li>
-      <li class="item location clickable">
-        <h5 class="title">Location</h5>
-        <span>经度：${exifInfo.GPSLongitude} 纬度：${exifInfo.GPSLatitude}</span>
-      </li>
-      <li class="item camera clickable">
-        <h5 class="title">Camera</h5>
-        <span>${exifInfo.make}</span>
-      </li>
-      <li class="item lens clickable">
-        <h5 class="title">Model</h5>
-        <span>${exifInfo.model}</span>
-      </li>
-    `;
+  var exifInfoTemplate = `
+    <li data-v-2d46ff28 data-v-9c46fcc4 class="item category clickable">
+      <h5 data-v-2d46ff28 class="title">DateTime</h5>
+      <span data-v-9c46fcc4 data-v-2d46ff28>${exifInfo.dateTime}</span>
+    </li>
+    <li data-v-2d46ff28 data-v-9c46fcc4 class="item exif clickable">
+      <h5 data-v-2d46ff28 class="title">EXIF</h5>
+      <ul data-v-9c46fcc4  data-v-2d46ff28>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="focus">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.FocalLength}mm</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="aperture">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>ƒ/${exifInfo.ApertureValue}</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="shutter">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.exposureTime}s</span>
+        </li>
+        <li data-v-9c46fcc4  data-v-2d46ff28>
+          <i data-v-9c46fcc4  data-v-2d46ff28 class="iso">
+          </i>
+          <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.isoSpeedRatings}</span>
+        </li>
+      </ul>
+    </li>
+     <li data-v-9c46fcc4  data-v-2d46ff28 class="item location clickable">
+      <h5 data-v-2d46ff28 class="title">Location</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>经度：${exifInfo.GPSLongitude} 纬度：${exifInfo.GPSLatitude}</span>
+    </li>
+    <li data-v-9c46fcc4  data-v-2d46ff28 class="item camera clickable">
+      <h5 data-v-2d46ff28 class="title">Camera</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.make}</span>
+    </li>
+    <li  data-v-9c46fcc4  data-v-2d46ff28 class="item lens clickable">
+      <h5 data-v-2d46ff28 class="title">Model</h5>
+      <span data-v-9c46fcc4  data-v-2d46ff28>${exifInfo.model}</span>
+    </li>
+  `;
 
-    itemsElement.append(exifInfoTemplate);
-    barElement.append(itemsElement);
-    metabarElement.append(barElement);
-    exifElement.append(metabarElement);
+  itemsElement.append(exifInfoTemplate);
+  barElement.append(itemsElement);
+  metabarElement.append(barElement);
+  exifElement.append(metabarElement);
 
-    return exifElement;
-  }
+  return exifElement;
+}
+
 
   
   function formatDateTime(dateTimeString) {
