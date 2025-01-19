@@ -456,20 +456,19 @@ i.arrow.right {
     font-family: icons;
     font-weight: 400;
     font-style: normal;
-    src: url(../fonts/icons.c99fd20e.eot);
-    src: url(../fonts/icons.c99fd20e.eot#iefix) format("embedded-opentype"),url(../fonts/icons.c0734efd.ttf) format("truetype"),url(../fonts/icons.62353706.woff) format("woff"),url(../images/icons.svg#icons) format("svg")
+    src: url(https://wanqian6311.github.io/blog/fonts/icons.c99fd20e.eot);
+    src: url(https://wanqian6311.github.io/blog/fonts/icons.c99fd20e.eot#iefix) format("embedded-opentype"),url(https://wanqian6311.github.io/blog/fonts/icons.c0734efd.ttf) format("truetype"),url(https://wanqian6311.github.io/blog/fonts/icons.62353706.woff) format("woff"),url(https://wanqian6311.github.io/blog/images/icons.svg#icons) format("svg")
 }
 
 @font-face {
     font-family: Calluna;
     font-weight: 400;
     font-style: normal;
-    src: url(../fonts/Calluna.8f9600c7.woff2) format("woff2"),url(../fonts/Calluna.cd209dd4.woff) format("woff")
+    src: url(https://wanqian6311.github.io/blog/fonts/Calluna.8f9600c7.woff2) format("woff2"),url(https://wanqian6311.github.io/blog/fonts/Calluna.cd209dd4.woff) format("woff")
 }
 
 @font-face {
     font-family: "Source Han Serif";
     font-weight: medium;
     font-style: normal;
-    src: url(../fonts/SourceHanSerif-Medium.6db0958f.ttf) format("truetype")
-}
+    src: url(https://wanqian6311.github.io/blog/fonts/SourceHanSerif-Medium.6db0958f.ttf) format("truetype")
