@@ -233,6 +233,122 @@
   }
 </script>
 </p>
+<div id="photo-gallery"></div>
+
+<script>
+  $(document).ready(function() {
+    
+    var photoUrl = '..\/..\/img\/images\/IMG_20250119_123327.jpg'; 
+
+    var photoElement = $('<div class="photo"></div>');
+    var imgElement = $('<img>').attr('src', photoUrl).attr("width", "60%");
+    photoElement.append(imgElement);
+    $('#photo-gallery').append(photoElement);
+
+    EXIF.getData(imgElement[0], function() {
+      var exifData = this.exifdata;
+      var exifInfo = generateExifInfo(exifData);
+      var exifInfoElement = createExifInfoElement(exifInfo);
+      photoElement.append(exifInfoElement);
+    });
+  });
+
+  
+  function generateExifInfo(exifData) {
+    var dateTime = exifData.DateTimeOriginal || exifData.DateTimeDigitized || exifData.DateTime;
+    var exposureTime = formatExposureTime(exifData.ExposureTime);
+    var isoSpeedRatings = exifData.ISOSpeedRatings;
+    var make = exifData.Make;
+    var model = exifData.Model;
+    var FocalLength = exifData.FocalLength;
+    var ApertureValue = exifData.ApertureValue;
+    var formattedDateTime = formatDateTime(dateTime);
+    var GPSLatitude =  convertDmsToDecimal(exifData.GPSLatitude);
+    var GPSLongitude =  convertDmsToDecimal(exifData.GPSLongitude);
+    
+    return {
+      dateTime: formattedDateTime,
+      exposureTime: exposureTime,
+      isoSpeedRatings: isoSpeedRatings,
+      make: make,
+      model: model,
+      FocalLength: FocalLength,
+      ApertureValue: ApertureValue,
+      GPSLatitude : GPSLatitude,
+      GPSLongitude : GPSLongitude,
+    };
+  }
+
+  
+  function createExifInfoElement(exifInfo) {
+    var exifElement = $('<div class="exif"></div>');
+    var metabarElement = $('<div class="metabar"></div>');
+    var barElement = $('<div class="bar"></div>');
+    var itemsElement = $('<ul class="items"></ul>');
+
+    var exifInfoTemplate = `
+      <li class="item category clickable">
+        <h5 class="title">DateTime</h5>
+        <span>${exifInfo.dateTime}</span>
+      </li>
+      <li class="item exif clickable">
+        <h5 class="title">EXIF</h5>
+        <ul>
+          <li><span>${exifInfo.FocalLength}mm</span></li>
+          <li><span>ƒ/${exifInfo.ApertureValue}</span></li>
+          <li><span>${exifInfo.exposureTime}s</span></li>
+          <li><span>${exifInfo.isoSpeedRatings}</span></li>
+        </ul>
+      </li>
+      <li class="item location clickable">
+        <h5 class="title">Location</h5>
+        <span>经度：${exifInfo.GPSLongitude} 纬度：${exifInfo.GPSLatitude}</span>
+      </li>
+      <li class="item camera clickable">
+        <h5 class="title">Camera</h5>
+        <span>${exifInfo.make}</span>
+      </li>
+      <li class="item lens clickable">
+        <h5 class="title">Model</h5>
+        <span>${exifInfo.model}</span>
+      </li>
+    `;
+
+    itemsElement.append(exifInfoTemplate);
+    barElement.append(itemsElement);
+    metabarElement.append(barElement);
+    exifElement.append(metabarElement);
+
+    return exifElement;
+  }
+
+  
+  function formatDateTime(dateTimeString) {
+    var dateTimeParts = dateTimeString.split(' ');
+    var dateParts = dateTimeParts[0].split(':');
+    var timeParts = dateTimeParts[1].split(':');
+
+    return `${dateParts[0]}年${dateParts[1]}月${dateParts[2]}日${timeParts[0]}:${timeParts[1]}:${timeParts[2]}`;
+  }
+
+  
+  function formatExposureTime(fraction) {
+    var denominator = 1 / fraction;
+    var denominator1 = Math.round(denominator);
+    return '1/' + denominator1;
+  }
+
+  
+  function convertDmsToDecimal(dmsArray) {
+    var degrees = dmsArray[0];
+    var minutes = dmsArray[1];
+    var seconds = dmsArray[2];
+    
+    var decimalValue = degrees + (minutes / 60) + (seconds / 3600);
+    return decimalValue.toFixed(2);
+  }
+</script>
+
 </div></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.122.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
