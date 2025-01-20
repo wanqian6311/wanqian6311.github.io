@@ -174,7 +174,7 @@ ul[data-v-9c46fcc4] {
     overflow-x: auto;
     list-style: none;
     -webkit-padding-start: 0;
-    list-style-type: none; /* 去除列表项前的默认标记 */
+
 
 }
 
@@ -232,6 +232,7 @@ ul.items[data-v-9c46fcc4] {
 
 .item li[data-v-9c46fcc4] {
     float: left
+    list-style-type: none; /* 去除列表项前的默认标记 */
 }
 
 .item .tooltip-target[data-v-9c46fcc4] {
