@@ -423,35 +423,35 @@
     -moz-osx-font-smoothing: grayscale
 }
 
-#photo-gallery i.aperture:before {
+i.aperture:before {
     content: "\E900"
 }
 
-#photo-gallery i.focus:before {
+i.focus:before {
     content: "\E901"
 }
 
-#photo-gallery i.shutter:before {
+i.shutter:before {
     content: "\E902"
 }
 
-#photo-gallery i.iso:before {
+i.iso:before {
     content: "\E903"
 }
 
-#photo-gallery i.star:before {
+i.star:before {
     content: "\E904"
 }
 
-#photo-gallery i.ellipsis:before {
+i.ellipsis:before {
     content: "\E001"
 }
 
-#photo-gallery i.xmark:before {
+i.xmark:before {
     content: "\E002"
 }
 
-#photo-gallery i.arrow:before {
+i.arrow:before {
     content: "\E003"
 }
 
