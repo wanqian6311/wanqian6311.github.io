@@ -1,4 +1,4 @@
-.title[data-v-2d46ff28] {
+#photo-gallery .title[data-v-2d46ff28] {
     display: block;
     margin-bottom: 6px;
     font-size: 12px;
@@ -17,11 +17,11 @@
 
 
 
-:lang(en) .title[data-v-2d46ff28] {
+#photo-gallery :lang(en) .title[data-v-2d46ff28] {
     font-weight: 500
 }
 
-.clickable .title[data-v-2d46ff28] {
+#photo-gallery .clickable .title[data-v-2d46ff28] {
     cursor: pointer
 }
 
@@ -39,7 +39,7 @@
 }
 
 
-.top{
+#photo-gallery .top{
     height: 120px;
     max-width: 1200px;
     background-color: #ffffff;
@@ -47,17 +47,17 @@
     align-items: center;
     justify-content: center;
 }
-.top_left{
+#photo-gallery .top_left{
     float: left;
 }
-.top_left img{
+#photo-gallery .top_left img{
     width: 120px;
     height: 120px;
     margin: 10px;
     margin-left: 15px;
     display: inline-block;
 }
-.top_name{
+#photo-gallery .top_name{
     float: left;
     line-height: 100px;
     color: #101f2c;
@@ -65,7 +65,7 @@
     font-family: "宋体";
 }
 
-.top_right{
+#photo-gallery .top_right{
     float: right;
     color: #101f2c;
     width: auto;
@@ -74,7 +74,7 @@
     display: inline-block;
     position: relative;
 }
-.top_right .h1 {
+#photo-gallery .top_right .h1 {
     float: left;
     height: 40px;
     width: auto;
@@ -84,7 +84,7 @@
     bottom: 3px;
 }
 
-.top_right .h2 {
+#photo-gallery .top_right .h2 {
     height: 40px;
     width: auto;
     font-size: 15px;
@@ -100,14 +100,14 @@
 
 
 
-.photo-gallery {
+#photo-gallery .photo-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 
-.container {
+#photo-gallery .container {
   max-width: 1200px;
   left: 0;
   right:0;
@@ -115,34 +115,34 @@
   text-align: center;
 }
 
-.photo {
+#photo-gallery .photo {
   margin: 10px;
   padding: 10px;
   border: none; /* 去除边框 */
   text-align: center;
 }
 
-.photo img {
+#photo-gallery .photo img {
   max-width: 100%;
   height: auto;
 }
 
 
 
-.metabar[data-v-9c46fcc4] {
+#photo-gallery .metabar[data-v-9c46fcc4] {
     display: content;
     opacity: 1;
     -webkit-transition: opacity .6s;
     transition: opacity .6s
 }
 
-.metabar[hide][data-v-9c46fcc4] {
+#photo-gallery .metabar[hide][data-v-9c46fcc4] {
     opacity: 0;
     -webkit-transition: opacity .1s;
     transition: opacity .1s
 }
 
-.bar[data-v-9c46fcc4] {
+#photo-gallery .bar[data-v-9c46fcc4] {
     width: 100%;
     margin: auto;
     padding-bottom: 16px;
@@ -152,16 +152,16 @@
     -webkit-overflow-scrolling: touch
 }
 
-.bar[data-v-9c46fcc4]:not([context]) {
+#photo-gallery .bar[data-v-9c46fcc4]:not([context]) {
     padding-bottom: 5vh;
     background-color: var(--primary-bg-color)
 }
 
-.bar[data-v-9c46fcc4]::-webkit-scrollbar {
+#photo-gallery .bar[data-v-9c46fcc4]::-webkit-scrollbar {
     display: none
 }
 
-ul[data-v-9c46fcc4] {
+#photo-gallery ul[data-v-9c46fcc4] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -177,13 +177,13 @@ ul[data-v-9c46fcc4] {
 }
 
 /* 选择包含特定类名的 ul 和 li 元素，去掉 ::marker */
-ul[data-v-9c46fcc4] li::marker {
+#photo-gallery ul[data-v-9c46fcc4] li::marker {
     content: none;
 }
 
 
 
-ul.items[data-v-9c46fcc4] {
+#photo-gallery ul.items[data-v-9c46fcc4] {
     margin: auto 20px;
     padding-top: 10px;
     text-align: center;
@@ -192,7 +192,7 @@ ul.items[data-v-9c46fcc4] {
     list-style-type: none; /* 去除列表项前的默认标记 */
 }
 
-.item[data-v-9c46fcc4] {
+#photo-gallery .item[data-v-9c46fcc4] {
     position: relative;
     padding: 8px 16px;
     -webkit-user-select: none;
@@ -204,11 +204,11 @@ ul.items[data-v-9c46fcc4] {
 
 }
 
-.item[data-v-9c46fcc4]:last-child {
+#photo-gallery .item[data-v-9c46fcc4]:last-child {
     margin-right: 20px
 }
 
-.metabar:not([panel-active]) .item.clickable[data-v-9c46fcc4],.metabar:not([panel-active]) .item.clickable span[data-v-9c46fcc4] {
+#photo-gallery .metabar:not([panel-active]) .item.clickable[data-v-9c46fcc4],.metabar:not([panel-active]) .item.clickable span[data-v-9c46fcc4] {
     cursor: pointer!important;
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;
@@ -224,23 +224,23 @@ ul.items[data-v-9c46fcc4] {
     }
 }
 
-.item>[data-v-9c46fcc4] {
+#photo-gallery .item>[data-v-9c46fcc4] {
     pointer-events: none
 }
 
-.item span[data-v-9c46fcc4] {
+#photo-gallery .item span[data-v-9c46fcc4] {
     font-size: 14px;
     text-decoration: none;
     color: var(--primary-color);
     cursor: default
 }
 
-.item li[data-v-9c46fcc4] {
+#photo-gallery .item li[data-v-9c46fcc4] {
     float: left
 
 }
 
-.item .tooltip-target[data-v-9c46fcc4] {
+#photo-gallery .item .tooltip-target[data-v-9c46fcc4] {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -248,17 +248,17 @@ ul.items[data-v-9c46fcc4] {
     left: 0
 }
 
-.exif ul[data-v-9c46fcc4] {
+#photo-gallery .exif ul[data-v-9c46fcc4] {
     padding-top: 1px;
 
 }
 
-.exif li[data-v-9c46fcc4]:not(:last-child) {
+#photo-gallery .exif li[data-v-9c46fcc4]:not(:last-child) {
     margin-right: 12px;
 
 }
 
-.exif li span[data-v-9c46fcc4] {
+#photo-gallery .exif li span[data-v-9c46fcc4] {
     position: relative;
     top: -1px;
     padding-left: 4px;
@@ -266,30 +266,30 @@ ul.items[data-v-9c46fcc4] {
     color: var(--primary-color)
 }
 
-.exif i[data-v-9c46fcc4] {
+#photo-gallery .exif i[data-v-9c46fcc4] {
     vertical-align: middle;
     font-size: 14px;
     color: var(--primary-color)
 }
 
-.category li[data-v-9c46fcc4] {
+#photo-gallery .category li[data-v-9c46fcc4] {
     margin-top: 2px
 }
 
-.category li[data-v-9c46fcc4]:not(:last-child) {
+#photo-gallery .category li[data-v-9c46fcc4]:not(:last-child) {
     margin-right: 8px
 }
 
-.category i[data-v-9c46fcc4] {
+#photo-gallery .category i[data-v-9c46fcc4] {
     font-size: 16px;
     color: var(--tetrienary-color)
 }
 
-.category i.filled[data-v-9c46fcc4] {
+#photo-gallery .category i.filled[data-v-9c46fcc4] {
     color: var(--secondary-color)
 }
 
-.item.more[data-v-9c46fcc4] {
+#photo-gallery .item.more[data-v-9c46fcc4] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -298,7 +298,7 @@ ul.items[data-v-9c46fcc4] {
     align-items: flex-end
 }
 
-.item.more span[data-v-9c46fcc4] {
+#photo-gallery .item.more span[data-v-9c46fcc4] {
     font-size: 16px;
     color: var(--secondary-color)
 }
@@ -398,7 +398,7 @@ ul.items[data-v-9c46fcc4] {
     }
 }
 
-h1,h2,h3,h4,h5,li,ul {
+#photo-gallery h1,h2,h3,h4,h5,li,ul {
     -webkit-font-smoothing: antialiased;
     -moz-font-feature-settings: "kern";
     -moz-osx-font-smoothing: grayscale;
@@ -407,11 +407,11 @@ h1,h2,h3,h4,h5,li,ul {
     -webkit-margin-before: 0
 }
 
-a {
+#photo-gallery a {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
-i {
+#photo-gallery i {
     font-family: icons!important;
     speak: none;
     font-style: normal;
@@ -423,53 +423,53 @@ i {
     -moz-osx-font-smoothing: grayscale
 }
 
-i.aperture:before {
+#photo-gallery i.aperture:before {
     content: "\E900"
 }
 
-i.focus:before {
+#photo-gallery i.focus:before {
     content: "\E901"
 }
 
-i.shutter:before {
+#photo-gallery i.shutter:before {
     content: "\E902"
 }
 
-i.iso:before {
+#photo-gallery i.iso:before {
     content: "\E903"
 }
 
-i.star:before {
+#photo-gallery i.star:before {
     content: "\E904"
 }
 
-i.ellipsis:before {
+#photo-gallery i.ellipsis:before {
     content: "\E001"
 }
 
-i.xmark:before {
+#photo-gallery i.xmark:before {
     content: "\E002"
 }
 
-i.arrow:before {
+#photo-gallery i.arrow:before {
     content: "\E003"
 }
 
-i.arrow {
+#photo-gallery i.arrow {
     display: block
 }
 
-i.arrow.left {
+#photo-gallery i.arrow.left {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg)
 }
 
-i.arrow.right {
+#photo-gallery i.arrow.right {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg)
 }
 
-@font-face {
+#photo-gallery @font-face {
     font-family: icons;
     font-weight: 400;
     font-style: normal;
@@ -477,14 +477,14 @@ i.arrow.right {
     src: url(https://wanqian6311.github.io/blog/fonts/icons.c99fd20e.eot#iefix) format("embedded-opentype"),url(https://wanqian6311.github.io/blog/fonts/icons.c0734efd.ttf) format("truetype"),url(https://wanqian6311.github.io/blog/fonts/icons.62353706.woff) format("woff"),url(https://wanqian6311.github.io/blog/images/icons.svg#icons) format("svg")
 }
 
-@font-face {
+#photo-gallery @font-face {
     font-family: Calluna;
     font-weight: 400;
     font-style: normal;
     src: url(https://wanqian6311.github.io/blog/fonts/Calluna.8f9600c7.woff2) format("woff2"),url(https://wanqian6311.github.io/blog/fonts/Calluna.cd209dd4.woff) format("woff")
 }
 
-@font-face {
+#photo-gallery @font-face {
     font-family: "Source Han Serif";
     font-weight: medium;
     font-style: normal;
