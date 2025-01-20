@@ -178,6 +178,13 @@ ul[data-v-9c46fcc4] {
 
 }
 
+/* 选择包含特定类名的 ul 和 li 元素，去掉 ::marker */
+ul[data-v-9c46fcc4] li::marker {
+    content: none;
+}
+
+
+
 ul.items[data-v-9c46fcc4] {
     margin: auto 20px;
     padding-top: 10px;
