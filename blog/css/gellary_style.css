@@ -174,8 +174,6 @@ ul[data-v-9c46fcc4] {
     overflow-x: auto;
     list-style: none;
     -webkit-padding-start: 0;
-
-
 }
 
 /* 选择包含特定类名的 ul 和 li 元素，去掉 ::marker */
@@ -239,7 +237,7 @@ ul.items[data-v-9c46fcc4] {
 
 .item li[data-v-9c46fcc4] {
     float: left
-    list-style-type: none; /* 去除列表项前的默认标记 */
+
 }
 
 .item .tooltip-target[data-v-9c46fcc4] {
@@ -252,12 +250,12 @@ ul.items[data-v-9c46fcc4] {
 
 .exif ul[data-v-9c46fcc4] {
     padding-top: 1px;
-    list-style-type: none; /* 去除列表项前的默认标记 */
+
 }
 
 .exif li[data-v-9c46fcc4]:not(:last-child) {
     margin-right: 12px;
-    list-style-type: none; /* 去除列表项前的默认标记 */
+
 }
 
 .exif li span[data-v-9c46fcc4] {
