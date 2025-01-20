@@ -469,7 +469,7 @@ i.arrow:before {
     transform: rotate(90deg)
 }
 
-#photo-gallery @font-face {
+@font-face {
     font-family: icons;
     font-weight: 400;
     font-style: normal;
@@ -477,14 +477,14 @@ i.arrow:before {
     src: url(https://wanqian6311.github.io/blog/fonts/icons.c99fd20e.eot#iefix) format("embedded-opentype"),url(https://wanqian6311.github.io/blog/fonts/icons.c0734efd.ttf) format("truetype"),url(https://wanqian6311.github.io/blog/fonts/icons.62353706.woff) format("woff"),url(https://wanqian6311.github.io/blog/images/icons.svg#icons) format("svg")
 }
 
-#photo-gallery @font-face {
+@font-face {
     font-family: Calluna;
     font-weight: 400;
     font-style: normal;
     src: url(https://wanqian6311.github.io/blog/fonts/Calluna.8f9600c7.woff2) format("woff2"),url(https://wanqian6311.github.io/blog/fonts/Calluna.cd209dd4.woff) format("woff")
 }
 
-#photo-gallery @font-face {
+@font-face {
     font-family: "Source Han Serif";
     font-weight: medium;
     font-style: normal;
