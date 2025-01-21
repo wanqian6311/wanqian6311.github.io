@@ -33,7 +33,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/wanqian6311.github.io\/blog\/posts\/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95\/"
-        },"genre": "posts","wordcount":  73 ,
+        },"genre": "posts","wordcount":  700 ,
         "url": "https:\/\/wanqian6311.github.io\/blog\/posts\/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95\/","datePublished": "2025-01-19T01:16:05+08:00","dateModified": "2025-01-19T01:16:05+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -123,8 +123,8 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">渗透测试</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://wanqian6311.github.io/blog" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levin</a>
 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-01-19">2025-01-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;73 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-01-19">2025-01-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;700 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -132,35 +132,265 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#弱口令爆破">弱口令爆破</a></li>
-    <li><a href="#浏览器页端口测试">浏览器页端口测试</a></li>
-    <li><a href="#awvs网站测试">AWVS网站测试</a></li>
+    <li>
+      <ul>
+        <li><a href="#-渗透测试工具链增强版"><strong>🛠️ 渗透测试工具链（增强版）</strong></a></li>
+        <li><a href="#-工具链集成与自动化"><strong>🔧 工具链集成与自动化</strong></a></li>
+        <li><a href="#-工具链优化建议"><strong>📊 工具链优化建议</strong></a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="端口扫描">端口扫描</h1>
+            </div><div class="content" id="content"><h3 id="-渗透测试工具链增强版"><strong>🛠️ 渗透测试工具链（增强版）</strong></h3>
+<h4 id="1-信息收集"><strong>1. 信息收集</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nmap</strong></td>
+<td>端口扫描与服务识别</td>
+<td><code>nmap -sV -sC -oA scan 10.10.11.51</code></td>
+</tr>
+<tr>
+<td><strong>Masscan</strong></td>
+<td>快速全网扫描</td>
+<td><code>masscan -p1-65535 10.10.11.51 --rate=1000</code></td>
+</tr>
+<tr>
+<td><strong>Amass</strong></td>
+<td>子域名枚举</td>
+<td><code>amass enum -d sequel.htb</code></td>
+</tr>
+<tr>
+<td><strong>Sublist3r</strong></td>
+<td>多源子域名收集</td>
+<td><code>sublist3r -d sequel.htb</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="2-漏洞扫描"><strong>2. 漏洞扫描</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nessus</strong></td>
+<td>全面漏洞扫描</td>
+<td>图形化界面，配置目标 IP 即可</td>
+</tr>
+<tr>
+<td><strong>OpenVAS</strong></td>
+<td>开源漏洞扫描</td>
+<td><code>omp -u admin -w password --xml=&quot;&lt;target&gt;&lt;hosts&gt;10.10.11.51&lt;/hosts&gt;&lt;/target&gt;&quot;</code></td>
+</tr>
+<tr>
+<td><strong>Nikto</strong></td>
+<td>Web 服务漏洞扫描</td>
+<td><code>nikto -h http://10.10.11.51</code></td>
+</tr>
+<tr>
+<td><strong>Wapiti</strong></td>
+<td>Web 应用漏洞检测</td>
+<td><code>wapiti -u http://10.10.11.51 -v 2</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="3-漏洞利用"><strong>3. 漏洞利用</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Metasploit</strong></td>
+<td>综合漏洞利用框架</td>
+<td><code>use exploit/windows/smb/ms17_010_eternalblue</code></td>
+</tr>
+<tr>
+<td><strong>Impacket</strong></td>
+<td>高级协议攻击工具集</td>
+<td><code>GetUserSPNs.py sequel.htb/user:pass</code></td>
+</tr>
+<tr>
+<td><strong>SQLMap</strong></td>
+<td>SQL 注入检测与利用</td>
+<td><code>sqlmap -u &quot;http://10.10.11.51/login&quot; --data=&quot;username=test&amp;password=test&quot;</code></td>
+</tr>
+<tr>
+<td><strong>CrackMapExec</strong></td>
+<td>内网渗透工具</td>
+<td><code>crackmapexec smb 10.10.11.51 -u users.txt -p passwords.txt</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="4-密码破解"><strong>4. 密码破解</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hashcat</strong></td>
+<td>GPU 加速密码破解</td>
+<td><code>hashcat -m 1000 hashes.txt rockyou.txt</code></td>
+</tr>
+<tr>
+<td><strong>John the Ripper</strong></td>
+<td>多模式密码破解</td>
+<td><code>john --format=nt hashes.txt</code></td>
+</tr>
+<tr>
+<td><strong>Hydra</strong></td>
+<td>在线密码爆破</td>
+<td><code>hydra -L users.txt -P passwords.txt ssh://10.10.11.51</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="5-后渗透与横向移动"><strong>5. 后渗透与横向移动</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mimikatz</strong></td>
+<td>Windows 凭证提取</td>
+<td><code>sekurlsa::logonpasswords</code></td>
+</tr>
+<tr>
+<td><strong>BloodHound</strong></td>
+<td>Active Directory 攻击路径分析</td>
+<td><code>SharpHound.exe -c All</code></td>
+</tr>
+<tr>
+<td><strong>Empire</strong></td>
+<td>PowerShell 后渗透框架</td>
+<td><code>usestager launcher powershell</code></td>
+</tr>
+<tr>
+<td><strong>Cobalt Strike</strong></td>
+<td>高级威胁模拟工具</td>
+<td>图形化界面，配置监听器即可</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="6-报告生成"><strong>6. 报告生成</strong></h4>
+<table>
+<thead>
+<tr>
+<th>工具名称</th>
+<th>用途</th>
+<th>示例命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Dradis</strong></td>
+<td>渗透测试协作与报告生成</td>
+<td>图形化界面，导入扫描结果</td>
+</tr>
+<tr>
+<td><strong>Serpico</strong></td>
+<td>自动化报告生成工具</td>
+<td>图形化界面，配置模板即可</td>
+</tr>
+<tr>
+<td><strong>Metasploit</strong></td>
+<td>导出扫描结果</td>
+<td><code>db_export -f xml report.xml</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="-工具链集成与自动化"><strong>🔧 工具链集成与自动化</strong></h3>
+<h4 id="1-使用自动化框架"><strong>1. 使用自动化框架</strong></h4>
 <ul>
-<li>测试工具
-nmap、御剑端口扫描
-<img
-        class="lazyload"
-        src="/blog/svg/loading.min.svg"
-        data-src="https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg"
-        data-srcset="https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg, https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg 1.5x, https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg 2x"
-        data-sizes="auto"
-        alt="https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg"
-        title="https://wanqian6311.github.io/blog/img/images/yujianduankou.jpg" /></li>
+<li>
+<p><strong>AutoRecon</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">autorecon 10.10.11.51
+</span></span></code></pre></div><p>自动执行 Nmap、Nikto、Dirb 等工具，生成结构化报告。</p>
+</li>
+<li>
+<p><strong>Recon-ng</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">recon-ng -m recon/domains-hosts/shodan_hostname -c <span class="s2">&#34;set SOURCE sequel.htb&#34;</span>
+</span></span></code></pre></div><p>自动化信息收集与漏洞扫描。</p>
+</li>
 </ul>
-<h2 id="弱口令爆破">弱口令爆破</h2>
+<hr>
+<h4 id="2-自定义脚本"><strong>2. 自定义脚本</strong></h4>
 <ul>
-<li>测试工具
-超级弱口令检查工具、hydra</li>
+<li>
+<p><strong>Bash 脚本示例</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nv">TARGET</span><span class="o">=</span><span class="nv">$1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;[*] Starting scan on </span><span class="nv">$TARGET</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">nmap -sV -sC -oA nmap_scan <span class="nv">$TARGET</span>
+</span></span><span class="line"><span class="cl">nikto -h http://<span class="nv">$TARGET</span> -o nikto_scan.txt
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;[*] Scan completed. Results saved.&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Python 脚本示例</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="n">target</span> <span class="o">=</span> <span class="s2">&#34;10.10.11.51&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;nmap -sV -sC -oA nmap_scan </span><span class="si">{</span><span class="n">target</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;nikto -h http://</span><span class="si">{</span><span class="n">target</span><span class="si">}</span><span class="s2"> -o nikto_scan.txt&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></li>
 </ul>
-<h2 id="浏览器页端口测试">浏览器页端口测试</h2>
+<hr>
+<h3 id="-工具链优化建议"><strong>📊 工具链优化建议</strong></h3>
+<ol>
+<li>
+<p><strong>模块化使用</strong>：</p>
 <ul>
-<li>测试工具
-burpsuite、</li>
+<li>根据目标环境选择合适的工具组合。</li>
+<li>避免重复扫描，利用数据库存储结果（如 Metasploit 的 <code>db</code> 功能）。</li>
 </ul>
-<h2 id="awvs网站测试">AWVS网站测试</h2>
+</li>
+<li>
+<p><strong>性能优化</strong>：</p>
+<ul>
+<li>使用分布式扫描工具（如 Masscan + Nmap）。</li>
+<li>针对大型网络，启用多线程和速率限制。</li>
+</ul>
+</li>
+<li>
+<p><strong>日志与审计</strong>：</p>
+<ul>
+<li>记录所有操作命令和输出结果。</li>
+<li>使用 <code>tee</code> 命令同时输出到屏幕和文件：
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nmap -sV -sC 10.10.11.51 <span class="p">|</span> tee nmap_scan.log
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
