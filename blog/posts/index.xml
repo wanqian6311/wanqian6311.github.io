@@ -18,7 +18,7 @@
     <pubDate>Sun, 19 Jan 2025 01:16:05 &#43;0800</pubDate>
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</guid>
-    <description><![CDATA[🛠️ 渗透测试工具链（增强版） 1. 信息收集 工具名称 用途 示例命令 Nmap 端口扫描与服务识别 nmap -sV -sC -oA scan 10.10.11.51 Masscan 快速全网扫描 masscan -p1-65535 10.10.11.51 --rate=1000 Amass 子域名枚举 amass enum -d sequel.htb Sublist3r 多源子]]></description>
+    <description><![CDATA[Kali Linux 渗透测试工具链 1. 信息收集 工具名称 用途 示例命令 Nmap 端口扫描与服务识别 nmap -sV -sC -oA scan 10.10.11.51 Masscan 快速全网扫描 masscan -p1-65535 10.10.11.51 --rate=1000 Amass 子域名枚举 amass enum -d sequel.htb Sublist3r 多源子域名收集 sublist3r]]></description>
 </item>
 <item>
     <title>kali工具</title>
