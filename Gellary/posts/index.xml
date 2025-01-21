@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Levin的小屋</title>
+        <link>https://wanqian6311.github.io/blog/posts/</link>
+        <description>All Posts | Levin的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Sun, 19 Jan 2025 10:45:01 &#43;0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>照片墙</title>
+    <link>https://wanqian6311.github.io/blog/posts/photos/</link>
+    <pubDate>Sun, 19 Jan 2025 10:45:01 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/blog/posts/photos/</guid>
+    <description><![CDATA[学习爱好者]]></description>
+</item>
+</channel>
+</rss>
