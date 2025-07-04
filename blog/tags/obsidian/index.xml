@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Obsidian - Tag - Levin的小屋</title>
+        <link>https://wanqian6311.github.io/blog/tags/obsidian/</link>
+        <description>Obsidian - Tag - Levin的小屋</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor>
+            <webMaster>wanqian6311@1gmail.com (Levin)</webMaster><atom:link href="https://wanqian6311.github.io/blog/tags/obsidian/" rel="self" type="application/rss+xml" /><item>
+    <title>测试obsidian</title>
+    <link>https://wanqian6311.github.io/blog/posts/%E6%B5%8B%E8%AF%95obsidian/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/blog/posts/%E6%B5%8B%E8%AF%95obsidian/</guid>
+    <description><![CDATA[测试obsidian]]></description>
+</item>
+</channel>
+</rss>
