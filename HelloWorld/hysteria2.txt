@@ -1,3 +1,0 @@
-
-
-hysteria2://dongtaiwang.com@51.15.172.84:38800/?sni=apple.com&alpn=h3&insecure=1#Hysteria2%E8%8A%82%E7%82%B9
