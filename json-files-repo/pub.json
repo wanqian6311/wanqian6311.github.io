@@ -4,5 +4,5 @@
   { "id": "3", "name": "高频易错题库", "describe": "高频易错题库——wanqian6311整理", "file": "高频易错.json" },
   { "id": "4", "name": "等保单选题", "describe": "单选题（答案来源网络）——wanqian6311整理", "file": "DB_danxaun.json" },
   { "id": "5", "name": "等保多选题", "describe": "多选题（答案来源网络）——wanqian6311整理", "file": "DB_duoxaun.json" },
-  { "id": "6", "name": "等保判断题", "describe": "判断题（答案来源网络）——wanqian6311整理", "file": "DB_panduan.json" },
+  { "id": "6", "name": "等保判断题", "describe": "判断题（答案来源网络）——wanqian6311整理", "file": "DB_panduan.json" }
 ]
