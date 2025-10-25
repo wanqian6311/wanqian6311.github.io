@@ -344,8 +344,8 @@
       "存在漏洞，应在输出前过滤 alert  和  script  关键字",
       "存在漏洞，应在输出前对 message  进行 HTML 实体编码"
     ],
-    "answer": "B",
-    "analysis": ""
+    "answer": "D",
+    "analysis": "使用.textContent替代.innerHTML会丢失HTML格式"
   },
   {
     "id": "30",
@@ -1980,6 +1980,7 @@
     "analysis": ""
   }
 ]
+
 
 
 
