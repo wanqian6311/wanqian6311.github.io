@@ -150,6 +150,14 @@
     <description><![CDATA[一级标题 二级标题 三级标题]]></description>
 </item>
 <item>
+    <title>ceshi  34</title>
+    <link>https://wanqian6311.github.io/blog/posts/%E6%B5%8B%E8%AF%95111-111-11212/</link>
+    <pubDate>Sun, 04 Jan 2026 22:45:01 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/blog/posts/%E6%B5%8B%E8%AF%95111-111-11212/</guid>
+    <description><![CDATA[一级标题 二级标题 三级标题]]></description>
+</item>
+<item>
     <title>ceshi111</title>
     <link>https://wanqian6311.github.io/blog/posts/%E6%B5%8B%E8%AF%95111/</link>
     <pubDate>Sun, 04 Jan 2026 22:45:01 &#43;0800</pubDate>
@@ -196,14 +204,6 @@
     <author>Levin</author>
     <guid>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid>
     <description><![CDATA[主题配置文档 文档链接：https://hugoloveit.com/zh-cn/posts/]]></description>
-</item>
-<item>
-    <title>SecureCRT&amp;FX安装教程</title>
-    <link>https://wanqian6311.github.io/blog/posts/06.securecrtfx%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</link>
-    <pubDate>Sat, 02 Mar 2024 21:40:40 &#43;0800</pubDate>
-    <author>Levin</author>
-    <guid>https://wanqian6311.github.io/blog/posts/06.securecrtfx%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</guid>
-    <description><![CDATA[SecureCRT&amp;FX安装教程 1.安装软件 2.以管理员身份运行XFORCE 3.选择CRT&amp;FX 4.点击Generate 5.]]></description>
 </item>
 </channel>
 </rss>
