@@ -12,5 +12,13 @@
     <guid>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
     <description><![CDATA[#kali中文输入法 安装输入法框架 apt-get install fcitx 安装谷歌输入法 apt-get install fcitx-googlepinyin 重启 reboot]]></description>
 </item>
+<item>
+    <title>kali安装中文输入法111</title>
+    <link>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95-111/</link>
+    <pubDate>Sun, 04 Jun 2023 22:45:01 &#43;0800</pubDate>
+    <author>Levin</author>
+    <guid>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95-111/</guid>
+    <description><![CDATA[#kali中文输入法 安装输入法框架 apt-get install fcitx 安装谷歌输入法 apt-get install fcitx-googlepinyin 重启 reboot]]></description>
+</item>
 </channel>
 </rss>
