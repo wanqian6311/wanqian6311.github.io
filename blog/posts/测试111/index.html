@@ -33,7 +33,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/wanqian6311.github.io\/blog\/posts\/%E6%B5%8B%E8%AF%95111\/"
-        },"genre": "posts","keywords": "kali","wordcount":  12 ,
+        },"genre": "posts","keywords": "kali","wordcount":  1291 ,
         "url": "https:\/\/wanqian6311.github.io\/blog\/posts\/%E6%B5%8B%E8%AF%95111\/","datePublished": "2026-01-04T22:45:01+08:00","dateModified": "2026-01-04T22:45:01+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -123,8 +123,8 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">ceshi111</h1><h2 class="single-subtitle">ceshi</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/wanqian6311" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Levin</a>
 </span>&nbsp;<span class="post-category">included in <a href="/blog/categories/kali/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>kali</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-01-04">2026-01-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;12 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2026-01-04">2026-01-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1291 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -132,25 +132,208 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#二级标题">二级标题</a>
+    <li><a href="#typora-v1124-试用期重置与弹窗拦截">Typora v1.12.4 试用期重置与弹窗拦截</a>
       <ul>
-        <li><a href="#三级标题">三级标题</a></li>
+        <li><a href="#引言">引言</a></li>
+        <li><a href="#前置条件">前置条件</a></li>
+        <li><a href="#操作步骤">操作步骤</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h1 id="一级标题">一级标题</h1>
-<h2 id="二级标题">二级标题</h2>
-<h3 id="三级标题">三级标题</h3>
+<h2 id="typora-v1124-试用期重置与弹窗拦截">Typora v1.12.4 试用期重置与弹窗拦截</h2>
+<h3 id="引言">引言</h3>
+<p>Typora 是一款广受好评的、所见即所得的 Markdown 编辑器。在其正式发布后，采用了付费授权模式。对于希望体验或临时使用的用户，官方提供了 15 天的试用期。本文将介绍一种在 Windows 系统上重置 Typora v1.12.4 试用期的方法，并解决随之而来的弹窗问题。</p>
+<blockquote>
+<p><strong>请注意</strong>：本方法仅适用于特定版本（如 v1.12.4）的学习与测试目的。支持开发者，购买正版授权是获得完整功能和后续更新保障的最佳方式。</p>
+</blockquote>
+<h3 id="前置条件">前置条件</h3>
+<ul>
+<li>
+<p>操作系统：Windows 10/11</p>
+</li>
+<li>
+<p>目标软件：Typora v1.12.4</p>
+</li>
+<li>
+<p>所需工具：火绒安全软件（用于弹窗拦截，或其他具有类似功能的工具）</p>
+</li>
+</ul>
+<h3 id="操作步骤">操作步骤</h3>
+<h4 id="第一步安装与初次运行">第一步：安装与初次运行</h4>
+<ol>
+<li>
+<p>从 Typora 官网下载 <code>v1.12.4</code> 版本的安装包。</p>
+</li>
+<li>
+<p>运行下载的安装包，按照提示完成 Typora 的<strong>正常安装</strong>。</p>
+</li>
+<li>
+<p>安装完成后，<strong>打开一次 Typora 软件</strong>，然后完全关闭其界面。此步骤是为了生成必要的配置文件和注册表项。</p>
+</li>
+</ol>
+<h4 id="第二步清除本地试用数据">第二步：清除本地试用数据</h4>
+<ol>
+<li>
+<p>打开文件资源管理器，进入以下路径（请将 <code>{你自己的用户名}</code> 替换为你的实际用户名）：<code>C:\Users{你自己的用户名}\AppData\Roaming\Typora</code> <em>（<code>AppData</code> 文件夹通常为隐藏文件夹，如果看不到，需在“查看”选项中勾选“隐藏的项目”。）</em></p>
+</li>
+<li>
+<p>在该文件夹中，找到并<strong>删除</strong>名为 <code>profile.data</code> 的文件。这个文件记录了试用状态信息。</p>
 <p><img
         class="lazyload"
         src="/blog/svg/loading.min.svg"
-        data-src="https://wanqian6311.github.io/blog/images/%e6%b5%8b%e8%af%95111/img/Pasted-image20260120145701.png"
-        data-srcset="https://wanqian6311.github.io/blog/images/%e6%b5%8b%e8%af%95111/img/Pasted-image20260120145701.png, https://wanqian6311.github.io/blog/images/%e6%b5%8b%e8%af%95111/img/Pasted-image20260120145701.png 1.5x, https://wanqian6311.github.io/blog/images/%e6%b5%8b%e8%af%95111/img/Pasted-image20260120145701.png 2x"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140917552.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140917552.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140917552.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140917552.png 2x"
         data-sizes="auto"
-        alt="https://wanqian6311.github.io/blog/images/测试111/img/Pasted-image20260120145701.png"
-        title="Pasted-image20260120145701" /></p>
-</div><div class="post-footer" id="post-footer">
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140917552.png"
+        title="image-20260120140917552" /></p>
+</li>
+</ol>
+<h4 id="第三步清除注册表试用数据">第三步：清除注册表试用数据</h4>
+<ol start="3">
+<li>
+<p>按下键盘 <code>Win + R</code> 键，打开“运行”对话框。</p>
+</li>
+<li>
+<p>输入 <code>regedit</code> 并回车，以打开<strong>注册表编辑器</strong>。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140721957.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140721957.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140721957.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140721957.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140721957.png"
+        title="image-20260120140721957" /></p>
+</li>
+<li>
+<p>在注册表编辑器中，导航到以下路径：&lsquo;计算机\HKEY_CURRENT_USER\Software\Typora'4. 右键点击 <code>Typora</code> 文件夹，选择<strong>删除</strong>。 <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140804290.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140804290.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140804290.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140804290.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140804290.png"
+        title="image-20260120140804290" /></p>
+</li>
+<li>
+<p>操作完成后，关闭注册表编辑器。</p>
+</li>
+</ol>
+<h4 id="第四步验证与处理弹窗">第四步：验证与处理弹窗</h4>
+<ol>
+<li>
+<p>再次打开 Typora 软件。此时，试用期应该已被重置为新的 15 天。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140438167.png"
+        title="image-20260120140438167" /></p>
+</li>
+<li>
+<p>但是，每次启动时可能会显示“欢迎”界面，并且在试用期内会弹出“剩余X天”的倒计时弹窗。 <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140458818.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140458818.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140458818.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140458818.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140458818.png"
+        title="image-20260120140458818" /></p>
+</li>
+</ol>
+<h4 id="拦截弹窗方法以火绒安全软件为例">拦截弹窗方法（以火绒安全软件为例）：</h4>
+<ol start="3">
+<li>
+<p>确保已安装并运行“火绒安全软件”。</p>
+</li>
+<li>
+<p>当 Typora 的欢迎界面或倒计时弹窗出现时，找到火绒托盘图标，右键选择“弹窗拦截”。</p>
+</li>
+<li>
+<p>在弹窗拦截工具中，点击“截图拦截”。 <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140543593.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140543593.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140543593.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140543593.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140543593.png"
+        title="image-20260120140543593" /></p>
+</li>
+<li>
+<p>用十字光标框选 Typora 的弹窗窗口，然后确认拦截。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140607895.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140607895.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140607895.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140607895.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140607895.png"
+        title="image-20260120140607895" /></p>
+</li>
+<li>
+<p>火绒会自动识别并记住此弹窗，下次它将自动被屏蔽。</p>
+</li>
+</ol>
+<p>可以把欢迎界面也添加拦截规则 <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140601223.png"
+        data-srcset="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140601223.png, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140601223.png 1.5x, https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140601223.png 2x"
+        data-sizes="auto"
+        alt="https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20试用期重置与弹窗拦截/img/image-20260120140601223.png"
+        title="image-20260120140601223" /></p>
+<p>然后写出个bat脚本实现自动化，每次启动删除文件及注册表</p>
+<pre tabindex="0"><code>@echo off  
+if &#34;%1&#34;==&#34;hidden&#34; goto :main  
+​  
+REM 第一次运行，使用VBScript隐藏窗口运行自身，并传递参数hidden  
+set &#34;vbs=%temp%\temp_typora_runner.vbs&#34;  
+echo Set WshShell = CreateObject(&#34;WScript.Shell&#34;) &gt; &#34;%vbs%&#34;  
+echo WshShell.Run chr(34) ^&amp; &#34;%~f0&#34; ^&amp; chr(34) ^&amp; &#34; hidden&#34;, 0 &gt;&gt; &#34;%vbs%&#34;  
+cscript //nologo &#34;%vbs%&#34;  
+del &#34;%vbs%&#34;  
+exit /b  
+​  
+:main  
+chcp 65001 &gt;nul  
+​  
+echo 正在清理Typora相关数据...  
+​  
+REM 1. 删除注册表项  
+echo 删除注册表项：HKEY_CURRENT_USER\SOFTWARE\Typora  
+reg delete &#34;HKEY_CURRENT_USER\SOFTWARE\Typora&#34; /f 2&gt;nul  
+if %errorlevel% equ 0 (  
+    echo 注册表项已删除  
+) else (  
+    echo 注册表项不存在或删除失败  
+)  
+​  
+REM 2. 删除profile.data文件  
+set &#34;TYPORA_DATA=%APPDATA%\Typora\profile.data&#34;  
+echo 删除文件：%TYPORA_DATA%  
+if exist &#34;%TYPORA_DATA%&#34; (  
+    del /f /q &#34;%TYPORA_DATA%&#34;  
+    echo 文件已删除  
+) else (  
+    echo 文件不存在  
+)  
+​  
+REM 3. 启动Typora，并等待其结束  
+echo.  
+echo 正在启动Typora...  
+​  
+REM 尝试通过start命令启动并等待  
+start /wait &#34;&#34; typora.exe  
+​  
+REM 如果Typora没有启动，尝试其他路径（这里简单示例，你可以根据需要添加）  
+REM 如果上面的命令失败，可以尝试：  
+REM start /wait &#34;&#34; &#34;%LOCALAPPDATA%\Programs\Typora\typora.exe&#34;  
+​  
+echo Typora已关闭，脚本退出。
+</code></pre></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
