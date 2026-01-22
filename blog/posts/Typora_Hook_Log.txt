@@ -142,3 +142,611 @@
 ------------------
 [2026/1/22 20:37:45] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/typora.log
 ------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync 重定向 D:\ToolBox\Editor\Typora\resources\app\atom.compiled.dist.jsc --> D:\ToolBox\Editor\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.openSync D:\ToolBox\Editor\Typora\resources\app.bak\atom.compiled.dist.jsc
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\hjson\lib\hjson.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\util\assign.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\fs\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\node_modules\universalify\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\graceful-fs\graceful-fs.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\graceful-fs\polyfills.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\graceful-fs\legacy-streams.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\graceful-fs\clone.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy\copy.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy\ncp.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\util\utimes.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\win32.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\mkdirs\mkdirs-sync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\path-exists\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-sync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\copy-sync\copy-file-sync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\util\buffer.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\remove\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\remove\rimraf.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\json\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\json\jsonfile.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\node_modules\jsonfile\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json-sync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\json\output-json.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\move\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\move-sync\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\empty\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\file.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\link.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-paths.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\ensure\symlink-type.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-extra\lib\output\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\electron-fetch\lib\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\electron-fetch\node_modules\encoding\lib\encoding.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\iconv-lite\lib\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\iconv-lite\node_modules\safer-buffer\safer.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\iconv-lite\lib\bom-handling.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\iconv-lite\lib\streams.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\15810\AppData\Roaming\Typora/conf/conf.user.json
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\lib\fs-plus.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore-plus\lib\underscore-plus.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node.cjs
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\underscore\underscore-node-f.cjs
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\async\lib\async.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\mkdirp\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\rimraf\rimraf.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\glob.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\fs.realpath\old.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\minimatch\minimatch.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\brace-expansion\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\concat-map\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\balanced-match\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\inherits\inherits.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\path-is-absolute\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\sync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\glob\common.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\inflight\inflight.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\wrappy\wrappy.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\fs-plus\node_modules\once\once.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync d:\toolbox\editor\typora\typora.exe
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\TOOLBOX\EDITOR\TYPORA\TYPORA.EXE
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/typora.log
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\lib\main.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\node_modules\lodash\lodash.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\node_modules\is-promise\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\adapters\FileSync.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\adapters\Base.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\lowdb\adapters\_stringify.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\15810\AppData\Roaming\Typora\profile.data
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync C:\Users\15810\AppData\Roaming\Typora\history.data
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules\native-reg\lib\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules\node-gyp-build\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules\node-gyp-build\node-gyp-build.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules\native-reg\package.json
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync D:\LWQ\NOTE\HugoBlog\content\posts\Typora v1.12.4 破解学习记录.md
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\ToolBox\Editor\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\electron-progressbar\source\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFileSync D:\ToolBox\Editor\Typora\resources\node_modules.asar\electron-progressbar\node_modules\extend\index.js
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\ToolBox\Editor\Typora\resources\locales\zh-Hans.lproj\Menu.json
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile C:\Users\15810\AppData\Roaming\Typora\typora-dictionaries/user-dict.json
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Local\Temp\Typora
+------------------
+[2026/1/22 20:41:02] [Log] [&#128064;electron.net Request] POST https://store.typora.io/api/client/renew
+------------------
+[2026/1/22 20:41:02] [Log] request.url typeof: string value: https://store.typora.io/api/client/renew
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\ToolBox\Editor\Typora\resources\app/package.json --> D:\ToolBox\Editor\Typora\resources\app.bak\package.json
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\ToolBox\Editor\Typora\resources\app/launch.dist.js --> D:\ToolBox\Editor\Typora\resources\app.bak\launch.dist.js
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\ToolBox\Editor\Typora\resources\app/../page-dist/license.html --> D:\ToolBox\Editor\Typora\resources\app.bak\../page-dist/license.html
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook/Promises] 程序试图 fs.promises.readFile 重定向 D:\ToolBox\Editor\Typora\resources\app/../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js --> D:\ToolBox\Editor\Typora\resources\app.bak\../page-dist/static/js/LicenseIndex.180dd4c7.5789633d.js
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122200106.png
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122200106.png
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122201736.png
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122201736.png
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202239.png
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202239.png
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:03] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:03] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:03] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:04] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:04] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:41:05] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.readFile D:\ToolBox\Editor\Typora\resources\locales\zh-Hans.lproj\Panel.json
+------------------
+[2026/1/22 20:41:05] [Log] [&#128064;electron.net Request] GET https://typora.io/releases/windows_64.json
+------------------
+[2026/1/22 20:41:05] [Log] request.url typeof: string value: https://typora.io/releases/windows_64.json
+------------------
+[2026/1/22 20:41:09] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:09] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:09] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202239.png
+------------------
+[2026/1/22 20:41:09] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202239.png
+------------------
+[2026/1/22 20:41:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:13] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:13] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122202312.png
+------------------
+[2026/1/22 20:41:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:17] [Log] [&#128064;electron.net Request] GET https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122201736.png
+------------------
+[2026/1/22 20:41:17] [Log] request.url typeof: string value: https://wanqian6311.github.io/blog/images/Typora%20v1.12.4%20%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/img/Pasted-image20260122201736.png
+------------------
+[2026/1/22 20:41:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:32] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\draftsRecover
+------------------
+[2026/1/22 20:41:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:41:58] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:41:58] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:41:58] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:00] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:00] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:00] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:02] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:05] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:05] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:05] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:10] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:24] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:24] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:24] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:41] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:41] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:41] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:44] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:44] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:44] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:50] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:42:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:42:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:42:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:11] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:11] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:11] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:12] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:12] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:12] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:15] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:18] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:23] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:23] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:23] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:25] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:25] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:25] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:29] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:34] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:34] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:34] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:42] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:42] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:42] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:43:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:43:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:43:52] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:08] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:13] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:20] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:21] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:27] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:28] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:30] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:37] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:37] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:37] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:46] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:47] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:54] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:44:55] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:44:55] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:44:55] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:45:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:45:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:45:01] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:45:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:45:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:45:04] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:45:07] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:45:07] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:45:07] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:45:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.stat C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:45:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/sum
+------------------
+[2026/1/22 20:45:09] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.open C:\Users\15810\AppData\Roaming\Typora/backups/1
+------------------
+[2026/1/22 20:45:26] [Log] [&#128064;electron.net Request] POST https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:45:26] [Log] request.url typeof: string value: https://cognito-identity.us-west-2.amazonaws.com/
+------------------
+[2026/1/22 20:45:26] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\15810\AppData\Roaming\Typora\backups
+------------------
+[2026/1/22 20:45:26] [Log] [&#128737;&#65039; fsHook] 程序试图 fs.statSync C:\Users\15810\AppData\Roaming\Typora/typora.log
+------------------
