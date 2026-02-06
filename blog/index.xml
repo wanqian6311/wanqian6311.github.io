@@ -1,6 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Levin的小屋</title><link>https://wanqian6311.github.io/blog/</link><description>欢迎来到Levin的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@1gmail.com (Levin)</managingEditor><webMaster>wanqian6311@1gmail.com (Levin)</webMaster><lastBuildDate>Fri, 06 Feb 2026 11:12:38 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>快捷shell</title><link>https://wanqian6311.github.io/blog/posts/%E5%BF%AB%E6%8D%B7shell/</link><pubDate>Fri, 06 Feb 2026 11:12:38 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E5%BF%AB%E6%8D%B7shell/</guid><description>学习爱好者</description></item><item><title>sqlmap命令详解</title><link>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link><pubDate>Sat, 31 Jan 2026 20:16:47 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid><description>学习爱好者</description></item><item><title>Typora v1.12.4 破解学习记录</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><pubDate>Thu, 22 Jan 2026 19:59:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid><description>Typora v1.12.4 破解学习 1、安装nodojs 2、安装Typroa 打开Tyroa，选择输入激活码-&amp;gt;离线激活-&amp;gt;复制机器码到记事本-&amp;gt;关</description></item><item><title>Typora v1.12.4 试用期重置与弹窗拦截</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E8%AF%95%E7%94%A8%E6%9C%9F%E9%87%8D%E7%BD%AE%E4%B8%8E%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</link><pubDate>Tue, 20 Jan 2026 14:14:57 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E8%AF%95%E7%94%A8%E6%9C%9F%E9%87%8D%E7%BD%AE%E4%B8%8E%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</guid><description>&lt;div class="featured-image">
-&lt;img src="/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png" referrerpolicy="no-referrer">
-&lt;/div>Typora v1.12.4 试用期重置与弹窗拦截 引言 Typora 是一款广受好评的、所见即所得的 Markdown 编辑器。在其正式发布后，采用了付费授权模式。对于希望体验或临时使用的用户，官方</description></item><item><title>云空调</title><link>https://wanqian6311.github.io/blog/posts/%E4%BA%91%E7%A9%BA%E8%B0%83/</link><pubDate>Sat, 11 May 2024 12:13:15 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E4%BA%91%E7%A9%BA%E8%B0%83/</guid><description>学习爱好者</description></item><item><title>使用Aircrack-ng破解WiFi密码</title><link>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</link><pubDate>Tue, 25 Apr 2023 22:45:56 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</guid><description><![CDATA[<div class="details admonition abstract open">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Levin的小屋</title><link>https://wanqian6311.github.io/blog/</link><description>欢迎来到Levin的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@gmail.com (wanqian6311)</managingEditor><webMaster>wanqian6311@gmail.com (wanqian6311)</webMaster><lastBuildDate>Fri, 06 Feb 2026 15:42:28 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>文章标题</title><link>https://wanqian6311.github.io/blog/posts/test01/%E6%B5%8B%E8%AF%9511111/</link><pubDate>Fri, 06 Feb 2026 15:42:28 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/test01/%E6%B5%8B%E8%AF%9511111/</guid><description>学习爱好者</description></item><item><title>快捷shell</title><link>https://wanqian6311.github.io/blog/posts/%E5%BF%AB%E6%8D%B7shellxxs/</link><pubDate>Fri, 06 Feb 2026 11:12:38 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E5%BF%AB%E6%8D%B7shellxxs/</guid><description>学习爱好者</description></item><item><title>sqlmap命令详解</title><link>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link><pubDate>Sat, 31 Jan 2026 20:16:47 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid><description>学习爱好者</description></item><item><title>Typora v1.12.4 破解学习记录</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><pubDate>Thu, 22 Jan 2026 19:59:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid><description><![CDATA[<h2 id="typora-v1124-破解学习">Typora v1.12.4 破解学习</h2>
+<h3 id="1安装nodojs">1、安装nodojs</h3>
+<p></p>
+<h3 id="2安装typroa">2、安装Typroa</h3>
+<h4 id="打开tyroa选择输入激活码-离线激活-复制机器码到记事本-关闭程序">打开Tyroa，选择输入激活码-&gt;离线激活-&gt;复制机器码到记事本-&gt;关闭程序</h4>
+<h4 id="复制下面的脚本到安装目录下dtyporaresources文件夹内创建pjjs文件">复制下面的脚本到安装目录下<code>D:\Typora\resources</code>文件夹内创建<code>pj.js</code>文件</h4>
+<p><strong>修改209行的路径为安装路径const Typora_Installation_Path = &ldquo;D:\Typora&rdquo;;</strong></p>
+<p><strong>脚本来源:https://www.52pojie.cn/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=2084047&amp;pid=54623222</strong></p>]]></description></item><item><title>Typora v1.12.4 试用期重置与弹窗拦截</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E8%AF%95%E7%94%A8%E6%9C%9F%E9%87%8D%E7%BD%AE%E4%B8%8E%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</link><pubDate>Tue, 20 Jan 2026 14:14:57 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E8%AF%95%E7%94%A8%E6%9C%9F%E9%87%8D%E7%BD%AE%E4%B8%8E%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/blog/images/Typora%20v1.12.4%20%e8%af%95%e7%94%a8%e6%9c%9f%e9%87%8d%e7%bd%ae%e4%b8%8e%e5%bc%b9%e7%aa%97%e6%8b%a6%e6%88%aa/img/image-20260120140438167.png" referrerpolicy="no-referrer">
+            </div><h2 id="typora-v1124-试用期重置与弹窗拦截">Typora v1.12.4 试用期重置与弹窗拦截</h2>
+<h3 id="引言">引言</h3>
+<p>Typora 是一款广受好评的、所见即所得的 Markdown 编辑器。在其正式发布后，采用了付费授权模式。对于希望体验或临时使用的用户，官方提供了 15 天的试用期。本文将介绍一种在 Windows 系统上重置 Typora v1.12.4 试用期的方法，并解决随之而来的弹窗问题。</p>]]></description></item><item><title>云空调</title><link>https://wanqian6311.github.io/blog/posts/%E4%BA%91%E7%A9%BA%E8%B0%83/</link><pubDate>Sat, 11 May 2024 12:13:15 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E4%BA%91%E7%A9%BA%E8%B0%83/</guid><description>学习爱好者</description></item><item><title>使用Aircrack-ng破解WiFi密码</title><link>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</link><pubDate>Tue, 25 Apr 2023 22:45:56 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/02.%E4%BD%BF%E7%94%A8aircrack-ng%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81/</guid><description><![CDATA[<div class="details admonition abstract open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-list-ul fa-fw" aria-hidden="true"></i>快速通道<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
@@ -51,7 +60,7 @@
 <p>-0 Deautenticate 冲突模式</p>
 <p>使已经连接的合法客户端强制断开与路由端的连接，使其重新连接。在重新连接过程中获得验证数据包，从而产生有效ARP request。</p>
 <p>如果一个客户端连在路由端上，但是没有人上网以产生有效数据，此时，即使用-3也无法生成有效ARP request 。所以此时需要用 -0 攻击模式配合，-3 攻击才会被激活</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -0 10 -a <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -c <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -0 10 -a &lt;ap mac&gt; -c &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">[-0] :冲突攻击模式，后面跟发送次数（设置为0，则循环攻击，不停的断开连接，客户端无法正常上网）
 </span></span><span class="line"><span class="cl">[-a]：设置ap的mac
@@ -59,14 +68,14 @@
 </span></span><span class="line"><span class="cl">如果不设置-c，则断开所有和ap连接的合法客户端。  
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">aireplay-ng -3 -b <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+</span></span><span class="line"><span class="cl">aireplay-ng -3 -b &lt;ap mac&gt; -h &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">注：使用此攻击模式的前提是必须有通过合法认证的客户端连接到路由器
 </span></span></code></pre></div><h3 id="2伪装客户端连接">2.伪装客户端连接</h3>
 <p>-1 fakeauth count 伪装客户端连接</p>
 <p>这种模式是伪装一个客户端和AP进行连接</p>
 <p>这步是无客户端的研究学习的第一步，因为是无合法连接的客户端，因此需要一个伪装客户端来和路由器相连。为让AP接受数据包，必须使用自己的网卡和AP关联。如果没有关联的话，目标AP将忽略所有从你网卡发送的数据包，IVS数据将不会产生</p>
 <p>用-1伪装客户端成功连接以后才能发送注入命令，让路由器接受到注入命令后才可反馈数据从而产生数据包</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -1 0 -e <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">essid</span><span class="p">&gt;</span> -a<span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -1 0 -e &lt;ap essid&gt; -a&lt;ap mac&gt; -h &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">参数说明:
 </span></span><span class="line"><span class="cl">[-1]:伪装客户端连接模式，后面跟延时
@@ -77,7 +86,7 @@
 <p>-2 Interactive 交互模式</p>
 <p>这种攻击模式是一个抓包和提数据发起攻击包，三种集合在一起的模式</p>
 <h4 id="1这种模式主要用于研究学习无客户端先用-1建立虚假客户端连接然后直接发包攻击">1.这种模式主要用于研究学习无客户端，先用-1建立虚假客户端连接然后直接发包攻击</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -2 -p 0841 -c ff:ff:ff:ff:ff:ff -b <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -2 -p 0841 -c ff:ff:ff:ff:ff:ff -b &lt;ap mac&gt; -h &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">参数说明：
 </span></span><span class="line"><span class="cl">[-2]:交互攻击模式
@@ -86,14 +95,14 @@
 </span></span><span class="line"><span class="cl">[-b]:设置ap的mac地址
 </span></span><span class="line"><span class="cl">[-h]:设置伪装客户端的网卡MAC（即自己网卡MAC）
 </span></span></code></pre></div><h4 id="2提取包发送注入数据包发包攻击">2.提取包，发送注入数据包，发包攻击</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -2 -r <span class="p">&lt;</span><span class="nt">file</span><span class="p">&gt;</span> 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -2 -r &lt;file&gt; 
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">-x 1024 wifi0-x 1024是限定发包速度，避免网卡死机，可以选择1024
 </span></span></code></pre></div><h3 id="4注入攻击">4.注入攻击</h3>
 <p>-3 ARP-request 注入攻击模式</p>
 <p>这种模式是一种抓包后分析重发的过程，这种攻击模式很有效。</p>
 <p>既可以利用合法客户端，也可以配合-1利用虚拟连接的伪装客户端。如果有合法客户端那一般需要等几分钟，让合法客户端和ap之间通信，少量数据就可以产生有效ARP request 才可利用-3模式注入成功。如果没有任何通信存在，不能得到ARP request，则这种攻击就会失败。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -3 -b <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> -x 512 wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -3 -b &lt;ap mac&gt; -h &lt;my mac&gt; -x 512 wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">参数说明：
 </span></span><span class="line"><span class="cl">[-3]:arp 注入攻击模式
@@ -103,7 +112,7 @@
 </span></span></code></pre></div><h3 id="5chop攻击模式">5.chop攻击模式</h3>
 <p>-4 Chopchop攻击模式</p>
 <p>用以获得一个包含密钥数据的xor文件，这种模式主要是获得一个可利用包含密钥数据的xor文件，不能用来解密数据包。而是用它来产生一个新的数据包以便我们可以进行注入。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -4 -b <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -4 -b &lt;ap mac&gt; -h &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">参数说明：
 </span></span><span class="line"><span class="cl">[-b]:设置需要研究学习的AP的mac
@@ -111,9 +120,413 @@
 </span></span></code></pre></div><h3 id="6碎片包攻击模式">6.碎片包攻击模式</h3>
 <p>-5 fragment 碎片包攻击模式</p>
 <p>用以获得PRGA（包含 密钥的后缀为xor的文件）这种模式主要是获得一个可利用PRGA，这里的PRGA并不是WEP key数据，不能用来解密数据包。而是利用它产生一个新的数据包以便我们可以进行注入。其工作原理就是使目标AP重新广播包，当AP重广播时，一个新的IVS将产生，我们就是利用这个来研究学习</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -5 -b <span class="p">&lt;</span><span class="nt">ap</span> <span class="na">mac</span><span class="p">&gt;</span> -h <span class="p">&lt;</span><span class="nt">my</span> <span class="na">mac</span><span class="p">&gt;</span> wifi0
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">aireplay-ng -5 -b &lt;ap mac&gt; -h &lt;my mac&gt; wifi0
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">[-5]:碎片包攻击模式
 </span></span><span class="line"><span class="cl">[-b]:设置ap的mac
 </span></span><span class="line"><span class="cl">[-h]:设置虚拟伪装连接的mac（即自己网卡的mac）
-</span></span></code></pre></div>]]></description></item><item><title>渗透测试</title><link>https://wanqian6311.github.io/blog/posts/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</link><pubDate>Sun, 19 Jan 2025 01:16:05 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</guid><description>Kali Linux 渗透测试工具链 1. 信息收集 工具名称 用途 示例命令 Nmap 端口扫描与服务识别 nmap -sV -sC -oA scan 10.10.11.51 Masscan 快速全网扫描 masscan -p1-65535 10.10.11.51 --rate=1000 Amass 子域名枚举 amass enum -d sequel.htb Sublist3r 多源子域名收集 sublist3r</description></item><item><title>等级保护（第一阶段）学习笔记</title><link>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</link><pubDate>Wed, 20 Mar 2024 10:40:32 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</guid><description>等级保护（第一阶段）学习笔记 网络安全等级保护的基本含义 等级保护是指对国家重要信息、法人和其他组织及公民的专有信息以及公开信息的存储、传输、处</description></item><item><title>Hugo使用简单命令</title><link>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 02 Mar 2024 22:34:07 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</guid><description>Hugo使用简单命令 新建一个网站 hugo new site quickstart 新建一篇文章 hugo new content posts/*****.md 预览网站 hugo server --buildDrafts hugo server -D 浏览器输入http://localhost:1313 或者12</description></item><item><title>Hugo中Loveit主题配置文档</title><link>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</link><pubDate>Sat, 02 Mar 2024 22:29:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid><description>主题配置文档 文档链接：https://hugoloveit.com/zh-cn/posts/</description></item></channel></rss>
+</span></span></code></pre></div>]]></description></item><item><title>渗透测试</title><link>https://wanqian6311.github.io/blog/posts/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</link><pubDate>Sun, 19 Jan 2025 01:16:05 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</guid><description><![CDATA[<h2 id="kali-linux-渗透测试工具链"><strong>Kali Linux 渗透测试工具链</strong></h2>
+<hr>
+<p></p>
+<h3 id="1-信息收集"><strong>1. 信息收集</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Nmap</strong></td>
+          <td>端口扫描与服务识别</td>
+          <td><code>nmap -sV -sC -oA scan 10.10.11.51</code></td>
+      </tr>
+      <tr>
+          <td><strong>Masscan</strong></td>
+          <td>快速全网扫描</td>
+          <td><code>masscan -p1-65535 10.10.11.51 --rate=1000</code></td>
+      </tr>
+      <tr>
+          <td><strong>Amass</strong></td>
+          <td>子域名枚举</td>
+          <td><code>amass enum -d sequel.htb</code></td>
+      </tr>
+      <tr>
+          <td><strong>Sublist3r</strong></td>
+          <td>多源子域名收集</td>
+          <td><code>sublist3r -d sequel.htb</code></td>
+      </tr>
+      <tr>
+          <td><strong>DNSenum</strong></td>
+          <td>DNS 信息枚举</td>
+          <td><code>dnsenum sequel.htb</code></td>
+      </tr>
+      <tr>
+          <td><strong>theHarvester</strong></td>
+          <td>邮箱/子域名收集</td>
+          <td><code>theHarvester -d sequel.htb -b all</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="2-漏洞扫描"><strong>2. 漏洞扫描</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Nessus</strong></td>
+          <td>全面漏洞扫描</td>
+          <td>图形化界面，配置目标 IP 即可</td>
+      </tr>
+      <tr>
+          <td><strong>OpenVAS</strong></td>
+          <td>开源漏洞扫描</td>
+          <td><code>omp -u admin -w password --xml=&quot;&lt;target&gt;&lt;hosts&gt;10.10.11.51&lt;/hosts&gt;&lt;/target&gt;&quot;</code></td>
+      </tr>
+      <tr>
+          <td><strong>Nikto</strong></td>
+          <td>Web 服务漏洞扫描</td>
+          <td><code>nikto -h http://10.10.11.51</code></td>
+      </tr>
+      <tr>
+          <td><strong>Wapiti</strong></td>
+          <td>Web 应用漏洞检测</td>
+          <td><code>wapiti -u http://10.10.11.51 -v 2</code></td>
+      </tr>
+      <tr>
+          <td><strong>Lynis</strong></td>
+          <td>本地系统安全审计</td>
+          <td><code>lynis audit system</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="3-漏洞利用"><strong>3. 漏洞利用</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Metasploit</strong></td>
+          <td>综合漏洞利用框架</td>
+          <td><code>use exploit/windows/smb/ms17_010_eternalblue</code></td>
+      </tr>
+      <tr>
+          <td><strong>SQLMap</strong></td>
+          <td>SQL 注入检测与利用</td>
+          <td><code>sqlmap -u &quot;http://10.10.11.51/login&quot; --data=&quot;username=test&amp;password=test&quot;</code></td>
+      </tr>
+      <tr>
+          <td><strong>ExploitDB</strong></td>
+          <td>漏洞利用代码库</td>
+          <td><code>searchsploit eternalblue</code></td>
+      </tr>
+      <tr>
+          <td><strong>Burp Suite</strong></td>
+          <td>Web 应用漏洞利用</td>
+          <td>图形化界面，配置代理即可</td>
+      </tr>
+      <tr>
+          <td><strong>CrackMapExec</strong></td>
+          <td>内网渗透工具</td>
+          <td><code>crackmapexec smb 10.10.11.51 -u users.txt -p passwords.txt</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="4-密码破解"><strong>4. 密码破解</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Hashcat</strong></td>
+          <td>GPU 加速密码破解</td>
+          <td><code>hashcat -m 1000 hashes.txt rockyou.txt</code></td>
+      </tr>
+      <tr>
+          <td><strong>John the Ripper</strong></td>
+          <td>多模式密码破解</td>
+          <td><code>john --format=nt hashes.txt</code></td>
+      </tr>
+      <tr>
+          <td><strong>Hydra</strong></td>
+          <td>在线密码爆破</td>
+          <td><code>hydra -L users.txt -P passwords.txt ssh://10.10.11.51</code></td>
+      </tr>
+      <tr>
+          <td><strong>Medusa</strong></td>
+          <td>多协议密码爆破</td>
+          <td><code>medusa -h 10.10.11.51 -U users.txt -P passwords.txt -M ssh</code></td>
+      </tr>
+      <tr>
+          <td><strong>CeWL</strong></td>
+          <td>自定义字典生成</td>
+          <td><code>cewl http://10.10.11.51 -w custom_dict.txt</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="5-后渗透与横向移动"><strong>5. 后渗透与横向移动</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Mimikatz</strong></td>
+          <td>Windows 凭证提取</td>
+          <td><code>sekurlsa::logonpasswords</code></td>
+      </tr>
+      <tr>
+          <td><strong>BloodHound</strong></td>
+          <td>Active Directory 攻击路径分析</td>
+          <td><code>SharpHound.exe -c All</code></td>
+      </tr>
+      <tr>
+          <td><strong>Empire</strong></td>
+          <td>PowerShell 后渗透框架</td>
+          <td><code>usestager launcher powershell</code></td>
+      </tr>
+      <tr>
+          <td><strong>Cobalt Strike</strong></td>
+          <td>高级威胁模拟工具</td>
+          <td>图形化界面，配置监听器即可</td>
+      </tr>
+      <tr>
+          <td><strong>Powersploit</strong></td>
+          <td>PowerShell 渗透工具集</td>
+          <td><code>Invoke-Mimikatz -DumpCreds</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="6-报告生成"><strong>6. 报告生成</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Dradis</strong></td>
+          <td>渗透测试协作与报告生成</td>
+          <td>图形化界面，导入扫描结果</td>
+      </tr>
+      <tr>
+          <td><strong>Serpico</strong></td>
+          <td>自动化报告生成工具</td>
+          <td>图形化界面，配置模板即可</td>
+      </tr>
+      <tr>
+          <td><strong>Metasploit</strong></td>
+          <td>导出扫描结果</td>
+          <td><code>db_export -f xml report.xml</code></td>
+      </tr>
+      <tr>
+          <td><strong>Faraday</strong></td>
+          <td>渗透测试协作平台</td>
+          <td>图形化界面，集成多工具结果</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="7-无线网络渗透"><strong>7. 无线网络渗透</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Aircrack-ng</strong></td>
+          <td>无线网络破解</td>
+          <td><code>aircrack-ng -w rockyou.txt capture.cap</code></td>
+      </tr>
+      <tr>
+          <td><strong>Kismet</strong></td>
+          <td>无线网络探测</td>
+          <td><code>kismet -c wlan0</code></td>
+      </tr>
+      <tr>
+          <td><strong>Reaver</strong></td>
+          <td>WPS 破解</td>
+          <td><code>reaver -i wlan0mon -b 00:11:22:33:44:55</code></td>
+      </tr>
+      <tr>
+          <td><strong>Wifite</strong></td>
+          <td>自动化无线攻击工具</td>
+          <td><code>wifite --wps --bully</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="8-社会工程学"><strong>8. 社会工程学</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Social-Engineer Toolkit (SET)</strong></td>
+          <td>社会工程学攻击框架</td>
+          <td>图形化界面，选择攻击模块即可</td>
+      </tr>
+      <tr>
+          <td><strong>Phishing Frenzy</strong></td>
+          <td>钓鱼攻击平台</td>
+          <td>图形化界面，配置钓鱼页面</td>
+      </tr>
+      <tr>
+          <td><strong>Gophish</strong></td>
+          <td>开源钓鱼框架</td>
+          <td>图形化界面，配置邮件模板</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="9-逆向工程"><strong>9. 逆向工程</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Ghidra</strong></td>
+          <td>逆向工程分析</td>
+          <td>图形化界面，加载二进制文件</td>
+      </tr>
+      <tr>
+          <td><strong>Radare2</strong></td>
+          <td>命令行逆向工具</td>
+          <td><code>r2 -A binary_file</code></td>
+      </tr>
+      <tr>
+          <td><strong>IDA Pro</strong></td>
+          <td>高级逆向工程工具</td>
+          <td>图形化界面，加载二进制文件</td>
+      </tr>
+      <tr>
+          <td><strong>Binwalk</strong></td>
+          <td>固件分析与提取</td>
+          <td><code>binwalk firmware.bin</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="10-其他实用工具"><strong>10. 其他实用工具</strong></h3>
+<table>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>用途</th>
+          <th>示例命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Wireshark</strong></td>
+          <td>网络流量分析</td>
+          <td>图形化界面，加载抓包文件</td>
+      </tr>
+      <tr>
+          <td><strong>Tcpdump</strong></td>
+          <td>命令行抓包工具</td>
+          <td><code>tcpdump -i eth0 -w capture.pcap</code></td>
+      </tr>
+      <tr>
+          <td><strong>Netcat</strong></td>
+          <td>网络调试与后门</td>
+          <td><code>nc -lvp 4444</code></td>
+      </tr>
+      <tr>
+          <td><strong>Ettercap</strong></td>
+          <td>ARP 欺骗与中间人攻击</td>
+          <td><code>ettercap -T -i eth0 -M arp</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="-工具链集成与自动化"><strong>🔧 工具链集成与自动化</strong></h3>
+<h4 id="1-使用自动化框架"><strong>1. 使用自动化框架</strong></h4>
+<ul>
+<li>
+<p><strong>AutoRecon</strong>：</p>]]></description></item><item><title>等级保护（第一阶段）学习笔记</title><link>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</link><pubDate>Wed, 20 Mar 2024 10:40:32 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</guid><description><![CDATA[<h1 id="等级保护第一阶段学习笔记">等级保护（第一阶段）学习笔记</h1>
+<p></p>
+<h2 id="网络安全等级保护的基本含义">网络安全等级保护的基本含义</h2>
+<ul>
+<li>等级保护是指对国家重要信息、法人和其他组织及公民的专有信息以及公开信息的存储、传输、处理这些信息的系统分等级实行安全保护</li>
+<li>对信息系统中使用信息安全产品实行按等级管理；对信息系统中发生的信息安全事件分等级响应、处置。</li>
+</ul>
+<h2 id="突出问题">突出问题</h2>
+<ul>
+<li>信息安全滞后于信息化发展</li>
+<li>信息安全阻碍了信息化发展</li>
+</ul>
+<h2 id="存在问题">存在问题</h2>
+<ul>
+<li>大多数单位虽然采用防火墙作为内外网的边界防护设备</li>
+<li>重视外部攻击与入侵，忽视内部的非法行为</li>
+<li>偏重产品，忽视体系和管理</li>
+<li>关键技术，产品受制于人</li>
+</ul>
+<h2 id="外部因素形式所迫">外部因素————形式所迫</h2>
+<ul>
+<li>攻击技术越来越复杂、入侵条件越来越简单</li>
+<li>来自境外敌对势力的入侵、攻击、破坏日益严重</li>
+</ul>
+<h2 id="内部因素国情所需">内部因素————国情所需</h2>
+<ul>
+<li>信息安全保障工作基础比较薄弱</li>
+<li>基础信息网络和重要信息系统安全隐患严重</li>
+<li>是维护国家安全的需要，信息安全是国家安全的重要组成部分</li>
+</ul>
+<p>2014年习总书记成立“网络安全与信息化领导小组”
+第一次会议指出：没有网络安全就没有国家安全，没有信息化就没有现代化，且规划了构建网络安全的短期目标和长期安全</p>]]></description></item><item><title>Hugo使用简单命令</title><link>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</link><pubDate>Sat, 02 Mar 2024 22:34:07 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/hugo%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/</guid><description><![CDATA[<h1 id="hugo使用简单命令">Hugo使用简单命令</h1>
+<h2 id="新建一个网站">新建一个网站</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo new site quickstart
+</span></span></code></pre></div><h2 id="新建一篇文章">新建一篇文章</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo new content posts/*****.md
+</span></span></code></pre></div><h2 id="预览网站">预览网站</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo server --buildDrafts
+</span></span><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><p>浏览器输入http://localhost:1313 或者127.0.0.1:1313 预览网站</p>
+<h2 id="生成page文件">生成page文件</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><p>默认情况下,所有文章和页面均作为草稿创建.如果想要渲染这些页面,请从元数据中删除属性 draft: true, 设置属性 draft: false 或者为 hugo 命令添加 -D/&ndash;buildDrafts 参数.</p>]]></description></item></channel></rss>
