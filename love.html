@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>给最可爱的你</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            touch-action: manipulation; /* 优化移动端点击延迟 */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(135deg, #fce4ec 0%, #ffe1e1 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+
+        /* 漂浮爱心装饰 */
+        .floating-hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            width: 90%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 40px 20px;
+            border-radius: 30px;
+            box-shadow: 0 15px 35px rgba(255, 105, 135, 0.2);
+            text-align: center;
+        }
+
+        #heart-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        h1 {
+            color: #ff4d6d;
+            font-size: 1.5rem;
+            line-height: 1.4;
+            margin-bottom: 40px;
+            min-height: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column; /* 手机端垂直排列更易点击 */
+            align-items: center;
+            gap: 20px;
+        }
+
+        button {
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        #yes-btn {
+            width: 200px;
+            height: 60px;
+            background: linear-gradient(45deg, #ff4d6d, #ff758c);
+            color: white;
+            box-shadow: 0 10px 20px rgba(255, 77, 109, 0.3);
+            z-index: 100;
+        }
+
+        #no-btn {
+            width: 150px;
+            height: 50px;
+            background: #e0e0e0;
+            color: #777;
+        }
+
+        #success-page {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+    <div class="floating-hearts" id="hearts"></div>
+
+    <div class="container" id="main-card">
+        <div id="heart-icon">❤️</div>
+        <h1 id="question">小仙女，<br>做我女朋友好吗？</h1>
+        <div class="btn-group">
+            <button id="yes-btn">好哒！</button>
+            <button id="no-btn">不要</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="success-card">
+        <div style="font-size: 80px;">🥰</div>
+        <h1 style="color: #ff4d6d;">爱你！❤️❤️❤️<br>往后余生，请多指教！</h1>
+    </div>
+
+    <script>
+        let yesScale = 1;
+        let noScale = 1;
+        const messages = [
+            "再想想嘛...", 
+            "我会超听话的！", 
+            "答应我好不好？", 
+            "别点这个啦！", 
+            "我会心碎的😭", 
+            "拒绝无效哦~"
+        ];
+        let msgIndex = 0;
+
+        const yesBtn = document.getElementById('yes-btn');
+        const noBtn = document.getElementById('no-btn');
+        const question = document.getElementById('question');
+        const mainCard = document.getElementById('main-card');
+        const successCard = document.getElementById('success-card');
+
+        noBtn.addEventListener('touchstart', (e) => {
+            e.preventDefault(); // 防止移动端双击缩放
+            handleNo();
+        });
+
+        noBtn.addEventListener('click', (e) => {
+            handleNo();
+        });
+
+        function handleNo() {
+            // 增加同意按钮的大小
+            yesScale += 0.4;
+            yesBtn.style.transform = `scale(${yesScale})`;
+            
+            // 缩小拒绝按钮
+            noScale -= 0.1;
+            if (noScale < 0.2) noScale = 0.2;
+            noBtn.style.transform = `scale(${noScale})`;
+
+            // 移动拒绝按钮位置（可选，让它更难点到）
+            const x = Math.random() * 20 - 10;
+            const y = Math.random() * 20 - 10;
+            noBtn.style.translate = `${x}px ${y}px`;
+
+            // 更新文案
+            question.innerHTML = messages[msgIndex];
+            msgIndex = (msgIndex + 1) % messages.length;
+
+            // 满屏逻辑
+            if (yesScale > 8) {
+                yesBtn.style.position = 'fixed';
+                yesBtn.style.top = '0';
+                yesBtn.style.left = '0';
+                yesBtn.style.width = '100%';
+                yesBtn.style.height = '100%';
+                yesBtn.style.borderRadius = '0';
+                yesBtn.style.display = 'flex';
+                yesBtn.style.alignItems = 'center';
+                yesBtn.style.justifyContent = 'center';
+                yesBtn.style.fontSize = '3rem';
+                yesBtn.innerText = "快点我！";
+            }
+        }
+
+        yesBtn.addEventListener('click', () => {
+            mainCard.classList.add('hidden');
+            successCard.classList.remove('hidden');
+            createExplosion();
+        });
+
+        // 简单的背景爱心生成
+        function createExplosion() {
+            for(let i=0; i<20; i++) {
+                const heart = document.createElement('div');
+                heart.innerHTML = '❤️';
+                heart.style.position = 'fixed';
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.top = '100vh';
+                heart.style.fontSize = Math.random() * 20 + 20 + 'px';
+                heart.style.transition = `all ${Math.random() * 2 + 1}s ease-out`;
+                heart.style.zIndex = '1000';
+                document.body.appendChild(heart);
+                
+                setTimeout(() => {
+                    heart.style.top = '-10vh';
+                    heart.style.transform = `rotate(${Math.random() * 360}deg)`;
+                    heart.style.opacity = '0';
+                }, 100);
+            }
+        }
+    </script>
+</body>
+</html>
