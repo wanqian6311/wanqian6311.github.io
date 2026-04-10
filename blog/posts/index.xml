@@ -1,4 +1,38 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Levin的小屋</title><link>https://wanqian6311.github.io/blog/posts/</link><description>所有文章 | Levin的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@gmail.com (wanqian6311)</managingEditor><webMaster>wanqian6311@gmail.com (wanqian6311)</webMaster><lastBuildDate>Thu, 19 Mar 2026 14:07:59 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/posts/" rel="self" type="application/rss+xml"/><item><title>商用密码应用安全性评估 超级详细知识点大全（深度背诵版）</title><link>https://wanqian6311.github.io/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/</link><pubDate>Thu, 19 Mar 2026 14:07:59 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/</guid><description>学习爱好者</description></item><item><title>sqlmap命令详解</title><link>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link><pubDate>Sat, 31 Jan 2026 20:16:47 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid><description>学习爱好者</description></item><item><title>Typora v1.12.4 破解学习记录</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><pubDate>Thu, 22 Jan 2026 19:59:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid><description><![CDATA[<h2 id="typora-v1124-破解学习">Typora v1.12.4 破解学习</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Levin的小屋</title><link>https://wanqian6311.github.io/blog/posts/</link><description>所有文章 | Levin的小屋</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>wanqian6311@gmail.com (wanqian6311)</managingEditor><webMaster>wanqian6311@gmail.com (wanqian6311)</webMaster><lastBuildDate>Fri, 10 Apr 2026 09:44:12 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/posts/" rel="self" type="application/rss+xml"/><item><title/><link>https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link><pubDate>Fri, 10 Apr 2026 09:44:12 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</guid><description><![CDATA[<h1 id="pkipublic-key-infrastructure公钥基础设施知识点整理">PKI（Public Key Infrastructure）公钥基础设施知识点整理</h1>
+<h2 id="目录">目录</h2>
+<ol>
+<li>
+<p><a href="#1-pki%e6%a6%82%e8%bf%b0" rel="">PKI概述</a></p>
+</li>
+<li>
+<p><a href="#2-%e6%a0%b8%e5%bf%83%e7%bb%84%e4%bb%b6" rel="">核心组件</a></p>
+</li>
+<li>
+<p><a href="#3-%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5%e4%b8%8e%e5%8e%9f%e7%90%86" rel="">核心概念与原理</a></p>
+</li>
+<li>
+<p><a href="#4-%e8%af%81%e4%b9%a6%e7%ae%a1%e7%90%86" rel="">证书管理</a></p>
+</li>
+<li>
+<p><a href="#5-pki%e4%bf%a1%e4%bb%bb%e6%a8%a1%e5%9e%8b" rel="">PKI信任模型</a></p>
+</li>
+<li>
+<p><a href="#6-pki%e6%a0%87%e5%87%86%e4%b8%8e%e5%8d%8f%e8%ae%ae" rel="">PKI标准与协议</a></p>
+</li>
+<li>
+<p><a href="#7-pki%e5%ba%94%e7%94%a8%e5%9c%ba%e6%99%af" rel="">PKI应用场景</a></p>
+</li>
+<li>
+<p><a href="#8-%e5%ae%89%e5%85%a8%e5%a8%81%e8%83%81%e4%b8%8e%e9%98%b2%e6%8a%a4" rel="">安全威胁与防护</a></p>
+</li>
+<li>
+<p><a href="#9-pki%e9%83%a8%e7%bd%b2%e4%b8%8e%e8%bf%90%e7%bb%b4" rel="">PKI部署与运维</a></p>
+</li>
+</ol>
+<hr>
+<h2 id="1-pki概述">1. PKI概述</h2>
+<h3 id="11-定义">1.1 定义</h3>
+<p>PKI（Public Key Infrastructure，公钥基础设施）是一种基于公钥密码学的安全基础设施，用于创建、管理、分发、使用、存储和撤销数字证书。</p>]]></description></item><item><title>商用密码应用安全性评估 超级详细知识点大全（深度背诵版）</title><link>https://wanqian6311.github.io/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/</link><pubDate>Thu, 19 Mar 2026 14:07:59 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/</guid><description>学习爱好者</description></item><item><title>sqlmap命令详解</title><link>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link><pubDate>Sat, 31 Jan 2026 20:16:47 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/sqlmap%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid><description>学习爱好者</description></item><item><title>Typora v1.12.4 破解学习记录</title><link>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><pubDate>Thu, 22 Jan 2026 19:59:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/typora-v1.12.4-%E7%A0%B4%E8%A7%A3%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</guid><description><![CDATA[<h2 id="typora-v1124-破解学习">Typora v1.12.4 破解学习</h2>
 <h3 id="1安装nodojs">1、安装nodojs</h3>
 <p></p>
 <h3 id="2安装typroa">2、安装Typroa</h3>
@@ -529,5 +563,4 @@
 </span></span></code></pre></div><p>浏览器输入http://localhost:1313 或者127.0.0.1:1313 预览网站</p>
 <h2 id="生成page文件">生成page文件</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">hugo
-</span></span></code></pre></div><p>默认情况下,所有文章和页面均作为草稿创建.如果想要渲染这些页面,请从元数据中删除属性 draft: true, 设置属性 draft: false 或者为 hugo 命令添加 -D/&ndash;buildDrafts 参数.</p>]]></description></item><item><title>Hugo中Loveit主题配置文档</title><link>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</link><pubDate>Sat, 02 Mar 2024 22:29:44 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/hugo%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</guid><description><![CDATA[<h1 id="主题配置文档">主题配置文档</h1>
-<p>文档链接：<a href="https://hugoloveit.com/zh-cn/posts/" target="_blank" rel="noopener noreffer ">https://hugoloveit.com/zh-cn/posts/</a></p>]]></description></item></channel></rss>
+</span></span></code></pre></div><p>默认情况下,所有文章和页面均作为草稿创建.如果想要渲染这些页面,请从元数据中删除属性 draft: true, 设置属性 draft: false 或者为 hugo 命令添加 -D/&ndash;buildDrafts 参数.</p>]]></description></item></channel></rss>

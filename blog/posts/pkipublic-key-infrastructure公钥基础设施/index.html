@@ -1,0 +1,345 @@
+<!doctype html><html lang=zh-CN><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>- Levin的小屋</title><meta name=Description content="学习爱好者"><meta property="og:url" content="https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/"><meta property="og:site_name" content="Levin的小屋"><meta property="og:title" content="Levin的小屋"><meta property="og:description" content="学习爱好者"><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-04-10T09:44:12+08:00"><meta property="article:modified_time" content="2026-04-10T09:44:12+08:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Levin的小屋"><meta name=twitter:description content="学习爱好者"><meta name=application-name content="欢迎来到Levin的小屋"><meta name=apple-mobile-web-app-title content="欢迎来到Levin的小屋"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel=icon href=https://wanqian6311.github.io/blog/img/logo/touxiang.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#DCDCDC><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/><link rel=prev href=https://wanqian6311.github.io/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/><link rel=stylesheet href=/blog/css/style.min.css><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/wanqian6311.github.io\/blog\/posts\/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD\/"},"genre":"posts","wordcount":5909,"url":"https:\/\/wanqian6311.github.io\/blog\/posts\/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD\/","datePublished":"2026-04-10T09:44:12+08:00","dateModified":"2026-04-10T09:44:12+08:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Levin"},"description":"学习爱好者"}</script></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/blog/ title=Levin的小屋><img class="lazyload logo" src=/blog/svg/loading.min.svg data-src=https://wanqian6311.github.io/blog/img/logo/touxiang.png data-srcset="https://wanqian6311.github.io/blog/img/logo/touxiang.png, https://wanqian6311.github.io/blog/img/logo/touxiang.png 1.5x, https://wanqian6311.github.io/blog/img/logo/touxiang.png 2x" data-sizes=auto alt=https://wanqian6311.github.io/blog/img/logo/touxiang.png title=https://wanqian6311.github.io/blog/img/logo/touxiang.png>Levin的小屋</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/blog/posts/>文章 </a><a class=menu-item href=/blog/tags/>标签 </a><a class=menu-item href=/blog/categories/>分类 </a><a class=menu-item href=/Gellary/ title=照片墙>Gellary </a><span class="menu-item delimiter"></span><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/blog/ title=Levin的小屋><img class="lazyload logo" src=/blog/svg/loading.min.svg data-src=https://wanqian6311.github.io/blog/img/logo/touxiang.png data-srcset="https://wanqian6311.github.io/blog/img/logo/touxiang.png, https://wanqian6311.github.io/blog/img/logo/touxiang.png 1.5x, https://wanqian6311.github.io/blog/img/logo/touxiang.png 2x" data-sizes=auto alt=https://wanqian6311.github.io/blog/img/logo/touxiang.png title=https://wanqian6311.github.io/blog/img/logo/touxiang.png>Levin的小屋</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><a class=menu-item href=/blog/posts/ title>文章</a><a class=menu-item href=/blog/tags/ title>标签</a><a class=menu-item href=/blog/categories/ title>分类</a><a class=menu-item href=/Gellary/ title=照片墙>Gellary</a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></header><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>目录</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"></h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=https://wanqian6311.github.io/blog title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Levin</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2026-04-10>2026-04-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;约 5909 字&nbsp;
+<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;预计阅读 12 分钟&nbsp;</div></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>目录</span>
+<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#目录>目录</a></li><li><a href=#1-pki概述>1. PKI概述</a><ul><li><a href=#11-定义>1.1 定义</a></li><li><a href=#12-核心目标>1.2 核心目标</a></li><li><a href=#13-发展历程>1.3 发展历程</a></li></ul></li><li><a href=#2-核心组件>2. 核心组件</a><ul><li><a href=#21-证书颁发机构ca>2.1 证书颁发机构（CA）</a></li><li><a href=#22-注册机构ra>2.2 注册机构（RA）</a></li><li><a href=#23-证书存储库>2.3 证书存储库</a></li><li><a href=#24-证书撤销列表crl>2.4 证书撤销列表（CRL）</a></li><li><a href=#25-端实体>2.5 端实体</a></li></ul></li><li><a href=#3-核心概念与原理>3. 核心概念与原理</a><ul><li><a href=#31-公钥密码学基础>3.1 公钥密码学基础</a></li><li><a href=#32-数字签名>3.2 数字签名</a></li><li><a href=#33-数字证书>3.3 数字证书</a></li><li><a href=#34-证书链>3.4 证书链</a></li></ul></li><li><a href=#4-证书管理>4. 证书管理</a><ul><li><a href=#41-证书生命周期>4.1 证书生命周期</a></li><li><a href=#42-证书申请流程>4.2 证书申请流程</a></li><li><a href=#43-证书吊销原因>4.3 证书吊销原因</a></li><li><a href=#44-证书类型>4.4 证书类型</a></li></ul></li><li><a href=#5-pki信任模型>5. PKI信任模型</a><ul><li><a href=#51-层次信任模型>5.1 层次信任模型</a></li><li><a href=#52-网状信任模型>5.2 网状信任模型</a></li><li><a href=#53-桥接信任模型>5.3 桥接信任模型</a></li><li><a href=#54-混合与web信任模型>5.4 混合与Web信任模型</a></li></ul></li><li><a href=#6-pki标准与协议>6. PKI标准与协议</a><ul><li><a href=#61-证书格式标准>6.1 证书格式标准</a></li><li><a href=#62-pkcs标准系列>6.2 PKCS标准系列</a></li><li><a href=#63-证书协议>6.3 证书协议</a></li><li><a href=#64-证书查询协议>6.4 证书查询协议</a></li></ul></li><li><a href=#7-pki应用场景>7. PKI应用场景</a><ul><li><a href=#71-httpsssltls>7.1 HTTPS/SSL/TLS</a></li><li><a href=#72-代码签名>7.2 代码签名</a></li><li><a href=#73-文档签名>7.3 文档签名</a></li><li><a href=#74-客户端认证>7.4 客户端认证</a></li><li><a href=#75-电子邮件安全>7.5 电子邮件安全</a></li><li><a href=#76-物联网iot>7.6 物联网（IoT）</a></li><li><a href=#77-区块链与pki>7.7 区块链与PKI</a></li></ul></li><li><a href=#8-安全威胁与防护>8. 安全威胁与防护</a><ul><li><a href=#81-常见威胁>8.1 常见威胁</a></li><li><a href=#82-攻击案例>8.2 攻击案例</a></li><li><a href=#83-防护措施>8.3 防护措施</a></li><li><a href=#84-证书透明度certificate-transparency-ct>8.4 证书透明度（Certificate Transparency, CT）</a></li></ul></li><li><a href=#9-pki部署与运维>9. PKI部署与运维</a><ul><li><a href=#91-pki规划>9.1 PKI规划</a></li><li><a href=#92-证书管理系统>9.2 证书管理系统</a></li><li><a href=#93-密钥管理最佳实践>9.3 密钥管理最佳实践</a></li><li><a href=#94-监控与审计>9.4 监控与审计</a></li><li><a href=#95-合规要求>9.5 合规要求</a></li></ul></li><li><a href=#附录>附录</a><ul><li><a href=#a-术语表>A. 术语表</a></li><li><a href=#b-常用命令>B. 常用命令</a></li><li><a href=#c-参考资源>C. 参考资源</a></li></ul></li></ul></nav></div></div><div class=content id=content><h1 id=pkipublic-key-infrastructure公钥基础设施知识点整理>PKI（Public Key Infrastructure）公钥基础设施知识点整理</h1><h2 id=目录>目录</h2><ol><li><p><a href=#1-pki%e6%a6%82%e8%bf%b0 rel>PKI概述</a></p></li><li><p><a href=#2-%e6%a0%b8%e5%bf%83%e7%bb%84%e4%bb%b6 rel>核心组件</a></p></li><li><p><a href=#3-%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5%e4%b8%8e%e5%8e%9f%e7%90%86 rel>核心概念与原理</a></p></li><li><p><a href=#4-%e8%af%81%e4%b9%a6%e7%ae%a1%e7%90%86 rel>证书管理</a></p></li><li><p><a href=#5-pki%e4%bf%a1%e4%bb%bb%e6%a8%a1%e5%9e%8b rel>PKI信任模型</a></p></li><li><p><a href=#6-pki%e6%a0%87%e5%87%86%e4%b8%8e%e5%8d%8f%e8%ae%ae rel>PKI标准与协议</a></p></li><li><p><a href=#7-pki%e5%ba%94%e7%94%a8%e5%9c%ba%e6%99%af rel>PKI应用场景</a></p></li><li><p><a href=#8-%e5%ae%89%e5%85%a8%e5%a8%81%e8%83%81%e4%b8%8e%e9%98%b2%e6%8a%a4 rel>安全威胁与防护</a></p></li><li><p><a href=#9-pki%e9%83%a8%e7%bd%b2%e4%b8%8e%e8%bf%90%e7%bb%b4 rel>PKI部署与运维</a></p></li></ol><hr><h2 id=1-pki概述>1. PKI概述</h2><h3 id=11-定义>1.1 定义</h3><p>PKI（Public Key Infrastructure，公钥基础设施）是一种基于公钥密码学的安全基础设施，用于创建、管理、分发、使用、存储和撤销数字证书。</p><h3 id=12-核心目标>1.2 核心目标</h3><ul><li><p><strong>身份认证</strong>：验证通信双方的身份</p></li><li><p><strong>数据完整性</strong>：确保数据在传输过程中未被篡改</p></li><li><p><strong>数据机密性</strong>：保证敏感信息的保密性</p></li><li><p><strong>不可否认性</strong>：确保发送者无法否认其发送的行为</p></li></ul><h3 id=13-发展历程>1.3 发展历程</h3><p>| 阶段 | 时间 | 里程碑 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;&ndash;|</p><p>| 萌芽期 | 1970s | Diffie-Hellman密钥交换算法诞生 |</p><p>| 理论奠基 | 1976 | RSA公钥密码系统提出 |</p><p>| 标准建立 | 1988 | X.509标准首次发布 |</p><p>| 商业化 | 1990s | SSL/TLS协议广泛部署 |</p><p>| 现代化 | 2000s-至今 | 移动互联网、IoT、区块链融合 |</p><hr><h2 id=2-核心组件>2. 核心组件</h2><h3 id=21-证书颁发机构ca>2.1 证书颁发机构（CA）</h3><p><strong>定义</strong>：受信任的实体，负责颁发、管理和撤销数字证书。</p><p><strong>CA层级结构</strong>：</p><pre tabindex=0><code>
+根CA（Root CA）
+
+    ├── 中间CA（Intermediate CA）
+
+    │       ├── 颁发CA（Issuing CA）
+
+    │       └── 策略CA（Policy CA）
+
+    └── 自签名CA
+</code></pre><p><strong>CA职责</strong>：</p><ul><li><p>证书签发</p></li><li><p>证书吊销管理</p></li><li><p>CRL（证书吊销列表）发布</p></li><li><p>OCSP（在线证书状态协议）响应</p></li><li><p>策略制定与执行</p></li></ul><h3 id=22-注册机构ra>2.2 注册机构（RA）</h3><p><strong>定义</strong>：负责证书申请者身份验证的机构，是CA的前端接口。</p><p><strong>RA功能</strong>：</p><ul><li><p>接收并验证证书申请</p></li><li><p>身份凭证审核</p></li><li><p>密钥生命周期管理</p></li><li><p>证书撤销请求处理</p></li></ul><p><strong>CA与RA的关系</strong>：</p><pre tabindex=0><code>
+用户 → RA（身份验证）→ CA（证书签发）
+</code></pre><h3 id=23-证书存储库>2.3 证书存储库</h3><p><strong>功能</strong>：存储和分发证书及吊销信息。</p><p><strong>组件类型</strong>：</p><p>| 组件 | 描述 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|</p><p>| 证书存储 | X.500/LDAP目录存储证书 |</p><p>| CRL分发点 | 发布证书吊销列表 |</p><p>| OCSP响应器 | 提供在线证书状态查询 |</p><h3 id=24-证书撤销列表crl>2.4 证书撤销列表（CRL）</h3><p><strong>定义</strong>：由CA签发的被撤销证书列表。</p><p><strong>CRL字段</strong>：</p><ul><li><p>签名算法标识</p></li><li><p>颁发者名称</p></li><li><p>本次更新日期</p></li><li><p>下次更新日期</p></li><li><p>撤销证书列表</p></li></ul><h3 id=25-端实体>2.5 端实体</h3><p><strong>定义</strong>：使用PKI服务的最终用户、设备或应用程序。</p><p><strong>类型</strong>：</p><ul><li><p>个人用户</p></li><li><p>企业服务器</p></li><li><p>物联网设备</p></li><li><p>软件应用</p></li></ul><table><thead><tr><th>组件</th><th>角色</th><th>关键功能</th></tr></thead><tbody><tr><td><strong>CA（认证中心）</strong></td><td>核心权威</td><td>签发、管理、吊销证书；发布 CRL。</td></tr><tr><td><strong>RA（注册中心）</strong></td><td>辅助/前置</td><td>受理用户申请、审核身份，转发给 CA。</td></tr><tr><td><strong>证书库 / LDAP</strong></td><td>发布中心</td><td>存储并分发证书和 CRL，供用户查询下载。</td></tr><tr><td><strong>CRL（证书吊销列表）</strong></td><td>撤销机制（批量）</td><td>定期列出被吊销的证书序列号。</td></tr><tr><td><strong>OCSP（在线证书状态协议）</strong></td><td>撤销机制（实时）</td><td>提供实时的证书状态查询服务。</td></tr><tr><td><strong>KM / KMS（密钥管理系统）</strong></td><td>密钥生命周期管理</td><td>管理密钥的生成、分发、存储、归档、销毁。</td></tr><tr><td><strong>密码机 / HSM</strong></td><td>硬件安全根基</td><td>物理级保护私钥，执行加密/签名操作，防篡改。</td></tr></tbody></table><pre tabindex=0><code class=language-mermaid data-lang=mermaid>flowchart TD
+    subgraph 管理端
+        A[RA&lt;br&gt;注册中心] --&gt; B[CA&lt;br&gt;认证中心]
+        B --&gt; C[KMS&lt;br&gt;密钥管理系统]
+        C --&gt; D[HSM/密码机&lt;br&gt;硬件安全模块]
+    end
+
+    subgraph 发布端
+        B --&gt; E[LDAP/HTTP&lt;br&gt;证书/CRL仓库]
+        B --&gt; F[OCSP响应器&lt;br&gt;实时状态查询]
+    end
+
+    subgraph 用户端
+        G[最终实体&lt;br&gt;Alice] --&gt;|1.申请证书| A
+        G --&gt;|4.获取Bob证书| E
+        G --&gt;|5.查询证书状态| F
+        H[最终实体&lt;br&gt;Bob] --&gt;|1.申请证书| A
+    end
+
+    B --&gt;|签发证书/CRL| E
+    B --&gt;|更新吊销信息| F
+</code></pre><hr><h2 id=3-核心概念与原理>3. 核心概念与原理</h2><h3 id=31-公钥密码学基础>3.1 公钥密码学基础</h3><h4 id=对称加密-vs-非对称加密>对称加密 vs 非对称加密</h4><p>| 特性 | 对称加密 | 非对称加密 |</p><p>|&mdash;&mdash;|&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;|</p><p>| 密钥数量 | 1个（共享密钥） | 2个（公钥+私钥） |</p><p>| 密钥分发 | 困难 | 容易 |</p><p>| 计算效率 | 高 | 较低 |</p><p>| 典型算法 | AES、DES、3DES | RSA、ECC、ElGamal |</p><h4 id=rsa算法>RSA算法</h4><ul><li><p><strong>数学基础</strong>：大整数分解难题</p></li><li><p><strong>密钥长度</strong>：1024位（已不推荐）、2048位（推荐）、4096位（高安全）</p></li><li><p><strong>用途</strong>：加密、签名、数字信封</p></li></ul><h4 id=ecc椭圆曲线密码学>ECC（椭圆曲线密码学）</h4><ul><li><p><strong>数学基础</strong>：椭圆曲线离散对数难题</p></li><li><p><strong>优势</strong>：相同安全级别下密钥更短</p></li><li><p><strong>常用曲线</strong>：P-256、P-384、P-521</p></li></ul><h3 id=32-数字签名>3.2 数字签名</h3><p><strong>签名过程</strong>：</p><pre tabindex=0><code>
+原文 → Hash函数 → 摘要 → 私钥加密 → 数字签名
+</code></pre><p><strong>验证过程</strong>：</p><pre tabindex=0><code>
+签名 → 公钥解密 → 摘要1
+
+原文 → Hash函数 → 摘要2
+
+       比较摘要1与摘要2
+</code></pre><h3 id=33-数字证书>3.3 数字证书</h3><h4 id=x509证书结构>X.509证书结构</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-ASN.1 data-lang=ASN.1><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Certificate ::= SEQUENCE {
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    tbsCertificate       TBSCertificate,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    signatureAlgorithm   AlgorithmIdentifier,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    signatureValue      BIT STRING
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>TBSCertificate ::= SEQUENCE {
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    version         [0] EXPLICIT Version DEFAULT v1,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    serialNumber         CertificateSerialNumber,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    signature            AlgorithmIdentifier,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    issuer               Name,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    validity             Validity,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    subject              Name,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    subjectPublicKeyInfo SubjectPublicKeyInfo,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    issuerUniqueID  [1] IMPLICIT UniqueIdentifier OPTIONAL,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    subjectUniqueID [2] IMPLICIT UniqueIdentifier OPTIONAL,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    extensions      [3] EXPLICIT Extensions OPTIONAL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>}
+</span></span></code></pre></div><h4 id=关键字段说明>关键字段说明</h4><p>| 字段 | 说明 | 示例 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;|</p><p>| Serial Number | 证书唯一序列号 | 0x00:8F:E3:D8:2A |</p><p>| Subject | 证书持有者 | CN=example.com |</p><p>| Issuer | 颁发者 | CN=Root CA, O=Company |</p><p>| Valid From | 生效日期 | 2024-01-01 |</p><p>| Valid To | 过期日期 | 2025-01-01 |</p><p>| Public Key | 公钥信息 | RSA 2048-bit |</p><p>| Signature | CA数字签名 | - |</p><p>| Extensions | 扩展字段 | SAN、密钥用途等 |</p><h3 id=34-证书链>3.4 证书链</h3><p><strong>定义</strong>：从终端实体证书到根CA的证书信任路径。</p><p><strong>示例</strong>：</p><pre tabindex=0><code>
+Root CA（自签名）
+
+    └── Intermediate CA 1
+
+            └── Intermediate CA 2
+
+                    └── End-Entity Certificate
+</code></pre><hr><h2 id=4-证书管理>4. 证书管理</h2><h3 id=41-证书生命周期>4.1 证书生命周期</h3><pre tabindex=0><code>
+┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐
+
+│  密钥   │ → │ 证书    │ → │ 证书    │ → │ 证书    │ → │ 证书    │
+
+│  生成   │   │ 申请    │   │ 颁发    │   │ 使用    │   │ 撤销    │
+
+└─────────┘   └─────────┘   └─────────┘   └─────────┘   └─────────┘
+
+     │            │            │            │            │
+
+     ↓            ↓            ↓            ↓            ↓
+
+  密钥创建    RA验证身份    CA签发证书   正常服务     吊销生效
+</code></pre><h3 id=42-证书申请流程>4.2 证书申请流程</h3><p><strong>PKCS#10格式</strong>：</p><pre tabindex=0><code>
+CertificationRequest ::= SEQUENCE {
+
+    certificationRequestInfo CertificationRequestInfo,
+
+    signatureAlgorithm        AlgorithmIdentifier,
+
+    signature                 BIT STRING
+
+}
+
+  
+
+CertificationRequestInfo ::= SEQUENCE {
+
+    version             INTEGER,
+
+    subject             Name,
+
+    subjectPKInfo       SubjectPublicKeyInfo,
+
+    attributes          [0] Attributes OPTIONAL
+
+}
+</code></pre><h3 id=43-证书吊销原因>4.3 证书吊销原因</h3><p>| 原因码 | 说明 |</p><p>|&mdash;&mdash;&ndash;|&mdash;&mdash;|</p><p>| 0 | 未指定 |</p><p>| 1 | 密钥泄露 |</p><p>| 2 | CA泄露 |</p><p>| 3 | 主体变更 |</p><p>| 4 | 替换证书 |</p><p>| 5 | CA停用 |</p><p>| 6 | 证书挂起 |</p><h3 id=44-证书类型>4.4 证书类型</h3><p>| 类型 | 用途 | 有效期 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;&ndash;|</p><p>| 根证书 | 构建信任链 | 10-20年 |</p><p>| 中间CA证书 | 颁发业务证书 | 5-10年 |</p><p>| 服务器证书 | HTTPS网站 | 1-2年 |</p><p>| 客户端证书 | 用户身份认证 | 1-3年 |</p><p>| 代码签名证书 | 软件代码签名 | 1-3年 |</p><p>| 邮件证书 | S/MIME加密签名 | 1-3年 |</p><hr><h2 id=5-pki信任模型>5. PKI信任模型</h2><h3 id=51-层次信任模型>5.1 层次信任模型</h3><pre tabindex=0><code>
+                    ┌─────────┐
+
+                    │  根CA   │
+
+                    └────┬────┘
+
+                         │
+
+            ┌────────────┼────────────┐
+
+            │            │            │
+
+       ┌────▼────┐  ┌────▼────┐  ┌────▼────┐
+
+       │ 中间CA1 │  │ 中间CA2 │  │ 中间CA3 │
+
+       └────┬────┘  └────┬────┘  └────┬────┘
+
+            │            │            │
+
+       ┌────▼────┐  ┌────▼────┐  ┌────▼────┐
+
+       │ 终端CA1 │  │ 终端CA2 │  │ 终端CA3 │
+
+       └────┬────┘  └────┬────┘  └────┬────┘
+
+            │            │            │
+
+       ┌────▼────┐  ┌────▼────┐  ┌────▼────┐
+
+       │ 用户A   │  │ 用户B   │  │ 用户C   │
+
+       └─────────┘  └─────────┘  └─────────┘
+</code></pre><p><strong>特点</strong>：</p><ul><li><p>单一信任锚点</p></li><li><p>层次分明</p></li><li><p>易于管理</p></li><li><p>单点故障风险</p></li></ul><h3 id=52-网状信任模型>5.2 网状信任模型</h3><pre tabindex=0><code>
+        ┌─────────┐
+
+        │  CA1    │◄──────────┐
+
+        └────┬────┘           │
+
+             │                │
+
+    ┌────────┼────────┐       │
+
+    │        │        │       │
+
+┌───▼───┐┌──▼───┐┌───▼───┐   │
+
+│ CA2   ││ CA3  ││ CA4   │   │
+
+└───┬───┘└───┬───┘└───┬───┘   │
+
+    │       │       │         │
+
+┌───▼───┐┌──▼───┐┌───▼───┐   │
+
+│ 用户A ││用户B ││用户C  │───┘
+
+└───────┘└───────┘└───────┘  
+</code></pre><p><strong>特点</strong>：</p><ul><li><p>多个信任锚点</p></li><li><p>高可用性</p></li><li><p>交叉认证支持</p></li><li><p>复杂度较高</p></li></ul><h3 id=53-桥接信任模型>5.3 桥接信任模型</h3><pre tabindex=0><code>
+        ┌─────────┐
+
+        │  桥接CA  │
+
+        │ (Bridge)│
+
+        └────┬────┘
+
+     ┌───────┼───────┐
+
+     │       │       │
+
+┌────▼───┐┌──▼───┐┌───▼───┐
+
+│企业A   ││企业B  ││企业C  │
+
+│层次CA  ││网状CA ││混合CA │
+
+└────────┘└───────┘└───────┘
+</code></pre><h3 id=54-混合与web信任模型>5.4 混合与Web信任模型</h3><p><strong>浏览器信任模型</strong>：</p><ul><li><p>浏览器预置根证书列表</p></li><li><p>Mozilla、Microsoft、Apple各自维护</p></li><li><p>用户可手动添加/移除</p></li></ul><hr><h2 id=6-pki标准与协议>6. PKI标准与协议</h2><h3 id=61-证书格式标准>6.1 证书格式标准</h3><p>| 标准 | 描述 | 文件扩展名 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;|</p><p>| X.509 | 证书基本格式 | .cer, .crt, .der |</p><p>| PKCS#12 | 带私钥的证书容器 | .p12, .pfx |</p><p>| PKCS#7 | 签名信封格式 | .p7b, .p7c |</p><p>| PEM | Base64编码证书 | .pem |</p><p>| DER | 二进制编码证书 | .der |</p><h3 id=62-pkcs标准系列>6.2 PKCS标准系列</h3><p>| 标准 | 名称 | 用途 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;|</p><p>| PKCS#1 | RSA加密标准 | RSA公钥/私钥格式 |</p><p>| PKCS#3 | DH密钥交换 | 密钥协商协议 |</p><p>| PKCS#7 | Cryptographic Message Syntax | 数字签名信封 |</p><p>| PKCS#8 | 私钥格式 | 私钥信息语法 |</p><p>| PKCS#10 | 证书申请格式 | CSR标准格式 |</p><p>| PKCS#12 | 个人信息交换 | 证书+私钥存储 |</p><p>| PKCS#15 | 加密令牌格式 | 智能卡格式 |</p><h3 id=63-证书协议>6.3 证书协议</h3><h4 id=tlsssl协议>TLS/SSL协议</h4><pre tabindex=0><code>
+┌────────────┐                      ┌────────────┐
+
+│   客户端   │                      │   服务器   │
+
+└─────┬──────┘                      └─────┬──────┘
+
+      │                                    │
+
+      │──────── ClientHello ──────────────▶│
+
+      │◀─────── ServerHello ───────────────│
+
+      │◀─────── Certificate ──────────────│
+
+      │◀─────── ServerKeyExchange ─────────│
+
+      │◀─────── CertificateRequest ───────│
+
+      │◀─────── ServerHelloDone ───────────│
+
+      │                                    │
+
+      │──────── Certificate ──────────────▶│
+
+      │──────── ClientKeyExchange ─────────▶│
+
+      │──────── CertificateVerify ──────────▶│
+
+      │──────── ChangeCipherSpec ──────────▶│
+
+      │──────── Finished ──────────────────▶│
+
+      │                                    │
+
+      │◀─────── ChangeCipherSpec ──────────│
+
+      │◀─────── Finished ──────────────────│
+
+      │                                    │
+
+      │◀════════ 加密通信开始 ═══════════════│▶
+</code></pre><h4 id=smime协议>S/MIME协议</h4><ul><li><p>邮件加密与签名</p></li><li><p>数字信封封装</p></li><li><p>多媒体内容支持</p></li></ul><h4 id=代码签名>代码签名</h4><ul><li><p>Authenticode（Microsoft）</p></li><li><p>Apple Developer ID</p></li><li><p>Java JAR签名</p></li></ul><h3 id=64-证书查询协议>6.4 证书查询协议</h3><h4 id=ocsponline-certificate-status-protocol>OCSP（Online Certificate Status Protocol）</h4><p><strong>请求格式</strong>：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-ASN.1 data-lang=ASN.1><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>OCSPRequest ::= SEQUENCE {
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    tbsRequest              TBSRequest,
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    optionalSignature [0]   EXPLICIT Signature OPTIONAL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>}
+</span></span></code></pre></div><p><strong>响应状态</strong>：</p><p>| 状态 | 含义 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|</p><p>| Good | 证书有效 |</p><p>| Revoked | 证书已吊销 |</p><p>| Unknown | CA不识别该证书 |</p><h4 id=scvpserver-based-certificate-validation-protocol>SCVP（Server-Based Certificate Validation Protocol）</h4><ul><li><p>委托证书验证服务</p></li><li><p>完整验证链校验</p></li></ul><hr><h2 id=7-pki应用场景>7. PKI应用场景</h2><h3 id=71-httpsssltls>7.1 HTTPS/SSL/TLS</h3><p><strong>典型场景</strong>：</p><ul><li><p>Web服务器身份认证</p></li><li><p>传输层加密</p></li><li><p>SEO优化（Google排名）</p></li></ul><p><strong>证书类型</strong>：</p><p>| 类型 | 验证级别 | 标识 |</p><p>|&mdash;&mdash;|&mdash;&mdash;&mdash;-|&mdash;&mdash;|</p><p>| DV | 域名验证 | 锁形图标 |</p><p>| OV | 组织验证 | 组织信息显示 |</p><p>| EV | 扩展验证 | 绿色地址栏 |</p><h3 id=72-代码签名>7.2 代码签名</h3><p><strong>应用</strong>：</p><ul><li><p>Windows驱动签名</p></li><li><p>macOS应用签名</p></li><li><p>Android APK签名</p></li><li><p>Java Applet/JAR签名</p></li></ul><p><strong>作用</strong>：</p><ul><li><p>验证发布者身份</p></li><li><p>保证代码完整性</p></li><li><p>建立用户信任</p></li></ul><h3 id=73-文档签名>7.3 文档签名</h3><p><strong>标准</strong>：</p><ul><li><p>PDF签名（Adobe）</p></li><li><p>Office文档签名</p></li><li><p>XML数字签名</p></li></ul><p><strong>法律效力</strong>：</p><ul><li><p>电子合同签署</p></li><li><p>电子发票</p></li><li><p>法律文书归档</p></li></ul><h3 id=74-客户端认证>7.4 客户端认证</h3><p><strong>场景</strong>：</p><ul><li><p>VPN接入认证</p></li><li><p>无线网络（802.1X）</p></li><li><p>网上银行</p></li><li><p>企业单点登录</p></li></ul><h3 id=75-电子邮件安全>7.5 电子邮件安全</h3><p><strong>协议</strong>：S/MIME、PGP</p><p><strong>功能</strong>：</p><ul><li><p>邮件加密</p></li><li><p>数字签名</p></li><li><p>身份验证</p></li></ul><h3 id=76-物联网iot>7.6 物联网（IoT）</h3><p><strong>挑战</strong>：</p><ul><li><p>海量设备证书管理</p></li><li><p>轻量级PKI协议</p></li><li><p>设备身份绑定</p></li></ul><p><strong>解决方案</strong>：</p><ul><li><p>ECC证书</p></li><li><p>设备身份注册</p></li><li><p>自动证书更新</p></li></ul><h3 id=77-区块链与pki>7.7 区块链与PKI</h3><p><strong>融合方向</strong>：</p><ul><li><p>分布式CA</p></li><li><p>证书锚定区块链</p></li><li><p>智能合约证书管理</p></li></ul><hr><h2 id=8-安全威胁与防护>8. 安全威胁与防护</h2><h3 id=81-常见威胁>8.1 常见威胁</h3><p>| 威胁类型 | 描述 | 影响 |</p><p>|&mdash;&mdash;&mdash;-|&mdash;&mdash;|&mdash;&mdash;|</p><p>| 私钥泄露 | 私钥被窃取或复制 | 身份伪造 |</p><p>| CA欺骗 | 攻击者冒充合法CA | 颁发伪造证书 |</p><p>| 中间人攻击 | 拦截并篡改通信 | 数据窃取/篡改 |</p><p>| 证书欺骗 | 使用伪造证书 | 身份伪造 |</p><p>| CRL注入 | 伪造吊销列表 | 拒绝服务 |</p><p>| 时间戳篡改 | 修改证书有效期 | 证书滥用 |</p><h3 id=82-攻击案例>8.2 攻击案例</h3><h4 id=diginotar事件2011>DigiNotar事件（2011）</h4><ul><li><p>荷兰CA被入侵</p></li><li><p>颁发500多张伪造证书</p></li><li><p>影响Google、Facebook等</p></li></ul><h4 id=startcom事件2016>StartCom事件（2016）</h4><ul><li><p>中国CA被Mozilla吊销</p></li><li><p>发现违规签发证书</p></li></ul><h4 id=symantec事件2018>Symantec事件（2018）</h4><ul><li><p>Google Trust Store移除Symantec证书</p></li><li><p>理由：信任违规</p></li></ul><h3 id=83-防护措施>8.3 防护措施</h3><p><strong>技术层面</strong>：</p><ul><li><p>HSM（硬件安全模块）保护私钥</p></li><li><p>多因素认证</p></li><li><p>证书透明度（CT）</p></li><li><p>OCSP装订（Stapling）</p></li></ul><p><strong>管理层面的</strong>：</p><ul><li><p>CA/Browser Forum基线要求</p></li><li><p>定期安全审计</p></li><li><p>最小权限原则</p></li><li><p>证书策略（CP）制定</p></li></ul><h3 id=84-证书透明度certificate-transparency-ct>8.4 证书透明度（Certificate Transparency, CT）</h3><p><strong>目的</strong>：公开审计所有证书颁发</p><p><strong>组件</strong>：</p><pre tabindex=0><code>
+     ┌──────────┐
+
+     │    CA    │
+
+     └────┬─────┘
+
+          │ 提交证书
+
+          ▼
+
+     ┌──────────┐
+
+     │   日志   │
+
+     │ (Log)    │
+
+     └────┬─────┘
+
+          │ 签署SCT
+
+          ▼
+
+     ┌──────────┐
+
+     │   监控   │
+
+     │(Monitor) │
+
+     └──────────┘
+
+          │
+
+          ▼
+
+     ┌──────────┐
+
+     │   审计   │
+
+     │ (Audit)  │
+
+     └──────────┘
+</code></pre><p><strong>SCT（Signed Certificate Timestamp）</strong>：</p><ul><li><p>证明证书已提交CT日志</p></li><li><p>TLS握手时提供（扩展）</p></li></ul><hr><h2 id=9-pki部署与运维>9. PKI部署与运维</h2><h3 id=91-pki规划>9.1 PKI规划</h3><p><strong>决策要点</strong>：</p><p>| 决策项 | 选项 | 考量因素 |</p><p>|&mdash;&mdash;&ndash;|&mdash;&mdash;|&mdash;&mdash;&mdash;-|</p><p>| CA架构 | 单级/多级 | 安全性、可扩展性 |</p><p>| 加密算法 | RSA/ECC | 性能、兼容性 |</p><p>| 密钥长度 | 2048/4096位 | 安全等级、计算性能 |</p><p>| 证书策略 | 严格/宽松 | 合规要求、业务需求 |</p><p>| 存储方式 | 软件/HSM | 安全等级、成本 |</p><h3 id=92-证书管理系统>9.2 证书管理系统</h3><p><strong>开源方案</strong>：</p><ul><li><p>DogTag PKI</p></li><li><p>OpenCA</p></li><li><p>EJBCA</p></li><li><p>CFSSL</p></li></ul><p><strong>商业方案</strong>：</p><ul><li><p>Microsoft AD CS</p></li><li><p>DigiCert Services</p></li><li><p>Venafi</p></li><li><p>Keyfactor</p></li></ul><h3 id=93-密钥管理最佳实践>9.3 密钥管理最佳实践</h3><ol><li><p><strong>密钥生成</strong>：使用FIPS认证的随机数生成器</p></li><li><p><strong>密钥存储</strong>：HSM或软件Keystore加密存储</p></li><li><p><strong>密钥使用</strong>：最小权限原则，定期轮换</p></li><li><p><strong>密钥备份</strong>：安全存储，灾备考虑</p></li><li><p><strong>密钥销毁</strong>：不可恢复删除</p></li></ol><h3 id=94-监控与审计>9.4 监控与审计</h3><p><strong>监控指标</strong>：</p><ul><li><p>证书有效期分布</p></li><li><p>证书申请/吊销率</p></li><li><p>异常申请模式</p></li><li><p>CA健康状态</p></li></ul><p><strong>审计日志</strong>：</p><pre tabindex=0><code>
+时间戳 | 操作类型 | 操作者 | 证书序列号 | 结果
+
+-------|----------|--------|------------|------
+</code></pre><h3 id=95-合规要求>9.5 合规要求</h3><p>| 标准/法规 | 适用范围 |</p><p>|&mdash;&mdash;&mdash;&ndash;|&mdash;&mdash;&mdash;-|</p><p>| WebTrust | CA审计认证 |</p><p>| EV Guidelines | 扩展验证证书 |</p><p>| PCI DSS | 支付卡行业 |</p><p>| GDPR | 欧盟数据保护 |</p><p>| eIDAS | 欧盟电子签名 |</p><p>| 中国电子签名法 | 中国电子认证服务 |</p><hr><h2 id=附录>附录</h2><h3 id=a-术语表>A. 术语表</h3><p>| 术语 | 全称 | 说明 |</p><p>|&mdash;&mdash;|&mdash;&mdash;|&mdash;&mdash;|</p><p>| CA | Certificate Authority | 证书颁发机构 |</p><p>| RA | Registration Authority | 注册机构 |</p><p>| CRL | Certificate Revocation List | 证书吊销列表 |</p><p>| OCSP | Online Certificate Status Protocol | 在线证书状态协议 |</p><p>| CSR | Certificate Signing Request | 证书签名请求 |</p><p>| SAN | Subject Alternative Name | 主体备用名称 |</p><p>| CN | Common Name | 通用名称 |</p><p>| OID | Object Identifier | 对象标识符 |</p><p>| HSM | Hardware Security Module | 硬件安全模块 |</p><p>| PKCS | Public-Key Cryptography Standards | 公钥密码学标准 |</p><p>| CT | Certificate Transparency | 证书透明度 |</p><p>| SCT | Signed Certificate Timestamp | 签名证书时间戳 |</p><h3 id=b-常用命令>B. 常用命令</h3><p><strong>OpenSSL常用命令</strong>：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 生成RSA密钥</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl genrsa -out private.key <span class=m>2048</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 生成证书请求</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl req -new -key private.key -out request.csr
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 自签名证书</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl req -x509 -new -nodes -key private.key -sha256 -days <span class=m>365</span> -out certificate.crt
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 验证证书</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl x509 -in certificate.crt -text -noout
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 验证证书链</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl verify -CAfile ca.crt certificate.crt
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 检查证书过期</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl x509 -in certificate.crt -noout -dates
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 转换证书格式</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>openssl x509 -in certificate.der -inform DER -out certificate.pem -outform PEM
+</span></span></code></pre></div><h3 id=c-参考资源>C. 参考资源</h3><ul><li><p>RFC 5280 - Internet X.509 Public Key Infrastructure Certificate and CRL Profile</p></li><li><p>RFC 6960 - OCSP (Online Certificate Status Protocol)</p></li><li><p>RFC 3647 - Internet X.509 Public Key Infrastructure Certificate Policy and Certification Practices Framework</p></li><li><p>CA/Browser Forum Baseline Requirements</p></li><li><p>NIST SP 800-57 - Recommendation for Key Management</p></li></ul><hr><p><em>文档版本：1.0</em></p><p><em>最后更新：2024年</em></p><p><em>作者：Matrix Agent</em></p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2026-04-10</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 Twitter" data-sharer=twitter data-url=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/ data-title><i class="fab fa-twitter fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Facebook" data-sharer=facebook data-url=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/><i class="fab fa-facebook-square fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Hacker News" data-sharer=hackernews data-url=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/ data-title><i class="fab fa-hacker-news fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Line" data-sharer=line data-url=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/ data-title><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=https://wanqian6311.github.io/blog/posts/pkipublic-key-infrastructure%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/ data-title><i class="fab fa-weibo fa-fw" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags></section><section><span><a href=javascript:void(0); onclick=window.history.back()>返回</a></span>&nbsp;|&nbsp;<span><a href=/blog/>主页</a></span></section></div><div class=post-nav><a href=/blog/posts/%E5%95%86%E7%94%A8%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BC%B0-%E8%B6%85%E7%BA%A7%E8%AF%A6%E7%BB%86%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%A7%E5%85%A8%E6%B7%B1%E5%BA%A6%E8%83%8C%E8%AF%B5%E7%89%88/ class=prev rel=prev title="商用密码应用安全性评估 超级详细知识点大全（深度背诵版）"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>商用密码应用安全性评估 超级详细知识点大全（深度背诵版）</a></div></div><div id=comments></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>由 <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.160.1">Hugo</a> 强力驱动 | 主题 - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2024 - 2026</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://github.com/wanqian6311 target=_blank>wanqian6311</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"复制到剪贴板",maxShownLines:50},comment:{},lightgallery:!0}</script><script type=text/javascript src=/blog/js/theme.min.js></script></body></html>
