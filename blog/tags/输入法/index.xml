@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>输入法 on Levin的小屋</title><link>https://wanqian6311.github.io/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link><description>Recent content in 输入法 on Levin的小屋</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>wanqian6311@gmail.com (wanqian6311)</managingEditor><webMaster>wanqian6311@gmail.com (wanqian6311)</webMaster><lastBuildDate>Sun, 04 Jun 2023 22:45:01 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>kali安装中文输入法</title><link>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</link><pubDate>Sun, 04 Jun 2023 22:45:01 +0800</pubDate><author>wanqian6311@gmail.com (wanqian6311)</author><guid>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</guid><description>&lt;p&gt;#kali中文输入法&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>输入法 on Levin的小屋</title><link>https://wanqian6311.github.io/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link><description>Recent content in 输入法 on Levin的小屋</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>wanqian6311@gmail.com (wanqian6311)</managingEditor><webMaster>wanqian6311@gmail.com (wanqian6311)</webMaster><lastBuildDate>Tue, 14 Apr 2026 14:34:24 +0800</lastBuildDate><atom:link href="https://wanqian6311.github.io/blog/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>kali安装中文输入法</title><link>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</link><pubDate>Sun, 04 Jun 2023 22:45:01 +0800</pubDate><author>wanqian6311@gmail.com (wanqian6311)</author><guid>https://wanqian6311.github.io/blog/posts/03.kali%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95/</guid><description>&lt;p&gt;#kali中文输入法&lt;/p&gt;
 &lt;p&gt;安装输入法框架&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;apt-get install fcitx
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装谷歌输入法&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;apt-get install fcitx-googlepinyin
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install --install-recommends fcitx5 fcitx5-chinese-addons
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装图形化配置工具&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install fcitx5-configtool
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;重启&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;reboot
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;系统重启后，就可以进行最后的配置了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在终端运行 &lt;code&gt;fcitx5-configtool&lt;/code&gt; 打开配置界面。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;切换到“&lt;strong&gt;输入法&lt;/strong&gt;”选项卡，点击左下角的“&lt;strong&gt;+&lt;/strong&gt;”号添加输入法。&lt;/p&gt;</description></item></channel></rss>
