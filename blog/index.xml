@@ -130,357 +130,357 @@
 <p></p>
 <h3 id="1-信息收集"><strong>1. 信息收集</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Nmap</strong></td>
-          <td>端口扫描与服务识别</td>
-          <td><code>nmap -sV -sC -oA scan 10.10.11.51</code></td>
-      </tr>
-      <tr>
-          <td><strong>Masscan</strong></td>
-          <td>快速全网扫描</td>
-          <td><code>masscan -p1-65535 10.10.11.51 --rate=1000</code></td>
-      </tr>
-      <tr>
-          <td><strong>Amass</strong></td>
-          <td>子域名枚举</td>
-          <td><code>amass enum -d sequel.htb</code></td>
-      </tr>
-      <tr>
-          <td><strong>Sublist3r</strong></td>
-          <td>多源子域名收集</td>
-          <td><code>sublist3r -d sequel.htb</code></td>
-      </tr>
-      <tr>
-          <td><strong>DNSenum</strong></td>
-          <td>DNS 信息枚举</td>
-          <td><code>dnsenum sequel.htb</code></td>
-      </tr>
-      <tr>
-          <td><strong>theHarvester</strong></td>
-          <td>邮箱/子域名收集</td>
-          <td><code>theHarvester -d sequel.htb -b all</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Nmap</strong></td>
+					<td>端口扫描与服务识别</td>
+					<td><code>nmap -sV -sC -oA scan 10.10.11.51</code></td>
+			</tr>
+			<tr>
+					<td><strong>Masscan</strong></td>
+					<td>快速全网扫描</td>
+					<td><code>masscan -p1-65535 10.10.11.51 --rate=1000</code></td>
+			</tr>
+			<tr>
+					<td><strong>Amass</strong></td>
+					<td>子域名枚举</td>
+					<td><code>amass enum -d sequel.htb</code></td>
+			</tr>
+			<tr>
+					<td><strong>Sublist3r</strong></td>
+					<td>多源子域名收集</td>
+					<td><code>sublist3r -d sequel.htb</code></td>
+			</tr>
+			<tr>
+					<td><strong>DNSenum</strong></td>
+					<td>DNS 信息枚举</td>
+					<td><code>dnsenum sequel.htb</code></td>
+			</tr>
+			<tr>
+					<td><strong>theHarvester</strong></td>
+					<td>邮箱/子域名收集</td>
+					<td><code>theHarvester -d sequel.htb -b all</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="2-漏洞扫描"><strong>2. 漏洞扫描</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Nessus</strong></td>
-          <td>全面漏洞扫描</td>
-          <td>图形化界面，配置目标 IP 即可</td>
-      </tr>
-      <tr>
-          <td><strong>OpenVAS</strong></td>
-          <td>开源漏洞扫描</td>
-          <td><code>omp -u admin -w password --xml=&quot;&lt;target&gt;&lt;hosts&gt;10.10.11.51&lt;/hosts&gt;&lt;/target&gt;&quot;</code></td>
-      </tr>
-      <tr>
-          <td><strong>Nikto</strong></td>
-          <td>Web 服务漏洞扫描</td>
-          <td><code>nikto -h http://10.10.11.51</code></td>
-      </tr>
-      <tr>
-          <td><strong>Wapiti</strong></td>
-          <td>Web 应用漏洞检测</td>
-          <td><code>wapiti -u http://10.10.11.51 -v 2</code></td>
-      </tr>
-      <tr>
-          <td><strong>Lynis</strong></td>
-          <td>本地系统安全审计</td>
-          <td><code>lynis audit system</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Nessus</strong></td>
+					<td>全面漏洞扫描</td>
+					<td>图形化界面，配置目标 IP 即可</td>
+			</tr>
+			<tr>
+					<td><strong>OpenVAS</strong></td>
+					<td>开源漏洞扫描</td>
+					<td><code>omp -u admin -w password --xml=&quot;&lt;target&gt;&lt;hosts&gt;10.10.11.51&lt;/hosts&gt;&lt;/target&gt;&quot;</code></td>
+			</tr>
+			<tr>
+					<td><strong>Nikto</strong></td>
+					<td>Web 服务漏洞扫描</td>
+					<td><code>nikto -h http://10.10.11.51</code></td>
+			</tr>
+			<tr>
+					<td><strong>Wapiti</strong></td>
+					<td>Web 应用漏洞检测</td>
+					<td><code>wapiti -u http://10.10.11.51 -v 2</code></td>
+			</tr>
+			<tr>
+					<td><strong>Lynis</strong></td>
+					<td>本地系统安全审计</td>
+					<td><code>lynis audit system</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="3-漏洞利用"><strong>3. 漏洞利用</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Metasploit</strong></td>
-          <td>综合漏洞利用框架</td>
-          <td><code>use exploit/windows/smb/ms17_010_eternalblue</code></td>
-      </tr>
-      <tr>
-          <td><strong>SQLMap</strong></td>
-          <td>SQL 注入检测与利用</td>
-          <td><code>sqlmap -u &quot;http://10.10.11.51/login&quot; --data=&quot;username=test&amp;password=test&quot;</code></td>
-      </tr>
-      <tr>
-          <td><strong>ExploitDB</strong></td>
-          <td>漏洞利用代码库</td>
-          <td><code>searchsploit eternalblue</code></td>
-      </tr>
-      <tr>
-          <td><strong>Burp Suite</strong></td>
-          <td>Web 应用漏洞利用</td>
-          <td>图形化界面，配置代理即可</td>
-      </tr>
-      <tr>
-          <td><strong>CrackMapExec</strong></td>
-          <td>内网渗透工具</td>
-          <td><code>crackmapexec smb 10.10.11.51 -u users.txt -p passwords.txt</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Metasploit</strong></td>
+					<td>综合漏洞利用框架</td>
+					<td><code>use exploit/windows/smb/ms17_010_eternalblue</code></td>
+			</tr>
+			<tr>
+					<td><strong>SQLMap</strong></td>
+					<td>SQL 注入检测与利用</td>
+					<td><code>sqlmap -u &quot;http://10.10.11.51/login&quot; --data=&quot;username=test&amp;password=test&quot;</code></td>
+			</tr>
+			<tr>
+					<td><strong>ExploitDB</strong></td>
+					<td>漏洞利用代码库</td>
+					<td><code>searchsploit eternalblue</code></td>
+			</tr>
+			<tr>
+					<td><strong>Burp Suite</strong></td>
+					<td>Web 应用漏洞利用</td>
+					<td>图形化界面，配置代理即可</td>
+			</tr>
+			<tr>
+					<td><strong>CrackMapExec</strong></td>
+					<td>内网渗透工具</td>
+					<td><code>crackmapexec smb 10.10.11.51 -u users.txt -p passwords.txt</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="4-密码破解"><strong>4. 密码破解</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Hashcat</strong></td>
-          <td>GPU 加速密码破解</td>
-          <td><code>hashcat -m 1000 hashes.txt rockyou.txt</code></td>
-      </tr>
-      <tr>
-          <td><strong>John the Ripper</strong></td>
-          <td>多模式密码破解</td>
-          <td><code>john --format=nt hashes.txt</code></td>
-      </tr>
-      <tr>
-          <td><strong>Hydra</strong></td>
-          <td>在线密码爆破</td>
-          <td><code>hydra -L users.txt -P passwords.txt ssh://10.10.11.51</code></td>
-      </tr>
-      <tr>
-          <td><strong>Medusa</strong></td>
-          <td>多协议密码爆破</td>
-          <td><code>medusa -h 10.10.11.51 -U users.txt -P passwords.txt -M ssh</code></td>
-      </tr>
-      <tr>
-          <td><strong>CeWL</strong></td>
-          <td>自定义字典生成</td>
-          <td><code>cewl http://10.10.11.51 -w custom_dict.txt</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Hashcat</strong></td>
+					<td>GPU 加速密码破解</td>
+					<td><code>hashcat -m 1000 hashes.txt rockyou.txt</code></td>
+			</tr>
+			<tr>
+					<td><strong>John the Ripper</strong></td>
+					<td>多模式密码破解</td>
+					<td><code>john --format=nt hashes.txt</code></td>
+			</tr>
+			<tr>
+					<td><strong>Hydra</strong></td>
+					<td>在线密码爆破</td>
+					<td><code>hydra -L users.txt -P passwords.txt ssh://10.10.11.51</code></td>
+			</tr>
+			<tr>
+					<td><strong>Medusa</strong></td>
+					<td>多协议密码爆破</td>
+					<td><code>medusa -h 10.10.11.51 -U users.txt -P passwords.txt -M ssh</code></td>
+			</tr>
+			<tr>
+					<td><strong>CeWL</strong></td>
+					<td>自定义字典生成</td>
+					<td><code>cewl http://10.10.11.51 -w custom_dict.txt</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="5-后渗透与横向移动"><strong>5. 后渗透与横向移动</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Mimikatz</strong></td>
-          <td>Windows 凭证提取</td>
-          <td><code>sekurlsa::logonpasswords</code></td>
-      </tr>
-      <tr>
-          <td><strong>BloodHound</strong></td>
-          <td>Active Directory 攻击路径分析</td>
-          <td><code>SharpHound.exe -c All</code></td>
-      </tr>
-      <tr>
-          <td><strong>Empire</strong></td>
-          <td>PowerShell 后渗透框架</td>
-          <td><code>usestager launcher powershell</code></td>
-      </tr>
-      <tr>
-          <td><strong>Cobalt Strike</strong></td>
-          <td>高级威胁模拟工具</td>
-          <td>图形化界面，配置监听器即可</td>
-      </tr>
-      <tr>
-          <td><strong>Powersploit</strong></td>
-          <td>PowerShell 渗透工具集</td>
-          <td><code>Invoke-Mimikatz -DumpCreds</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Mimikatz</strong></td>
+					<td>Windows 凭证提取</td>
+					<td><code>sekurlsa::logonpasswords</code></td>
+			</tr>
+			<tr>
+					<td><strong>BloodHound</strong></td>
+					<td>Active Directory 攻击路径分析</td>
+					<td><code>SharpHound.exe -c All</code></td>
+			</tr>
+			<tr>
+					<td><strong>Empire</strong></td>
+					<td>PowerShell 后渗透框架</td>
+					<td><code>usestager launcher powershell</code></td>
+			</tr>
+			<tr>
+					<td><strong>Cobalt Strike</strong></td>
+					<td>高级威胁模拟工具</td>
+					<td>图形化界面，配置监听器即可</td>
+			</tr>
+			<tr>
+					<td><strong>Powersploit</strong></td>
+					<td>PowerShell 渗透工具集</td>
+					<td><code>Invoke-Mimikatz -DumpCreds</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="6-报告生成"><strong>6. 报告生成</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Dradis</strong></td>
-          <td>渗透测试协作与报告生成</td>
-          <td>图形化界面，导入扫描结果</td>
-      </tr>
-      <tr>
-          <td><strong>Serpico</strong></td>
-          <td>自动化报告生成工具</td>
-          <td>图形化界面，配置模板即可</td>
-      </tr>
-      <tr>
-          <td><strong>Metasploit</strong></td>
-          <td>导出扫描结果</td>
-          <td><code>db_export -f xml report.xml</code></td>
-      </tr>
-      <tr>
-          <td><strong>Faraday</strong></td>
-          <td>渗透测试协作平台</td>
-          <td>图形化界面，集成多工具结果</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Dradis</strong></td>
+					<td>渗透测试协作与报告生成</td>
+					<td>图形化界面，导入扫描结果</td>
+			</tr>
+			<tr>
+					<td><strong>Serpico</strong></td>
+					<td>自动化报告生成工具</td>
+					<td>图形化界面，配置模板即可</td>
+			</tr>
+			<tr>
+					<td><strong>Metasploit</strong></td>
+					<td>导出扫描结果</td>
+					<td><code>db_export -f xml report.xml</code></td>
+			</tr>
+			<tr>
+					<td><strong>Faraday</strong></td>
+					<td>渗透测试协作平台</td>
+					<td>图形化界面，集成多工具结果</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="7-无线网络渗透"><strong>7. 无线网络渗透</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Aircrack-ng</strong></td>
-          <td>无线网络破解</td>
-          <td><code>aircrack-ng -w rockyou.txt capture.cap</code></td>
-      </tr>
-      <tr>
-          <td><strong>Kismet</strong></td>
-          <td>无线网络探测</td>
-          <td><code>kismet -c wlan0</code></td>
-      </tr>
-      <tr>
-          <td><strong>Reaver</strong></td>
-          <td>WPS 破解</td>
-          <td><code>reaver -i wlan0mon -b 00:11:22:33:44:55</code></td>
-      </tr>
-      <tr>
-          <td><strong>Wifite</strong></td>
-          <td>自动化无线攻击工具</td>
-          <td><code>wifite --wps --bully</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Aircrack-ng</strong></td>
+					<td>无线网络破解</td>
+					<td><code>aircrack-ng -w rockyou.txt capture.cap</code></td>
+			</tr>
+			<tr>
+					<td><strong>Kismet</strong></td>
+					<td>无线网络探测</td>
+					<td><code>kismet -c wlan0</code></td>
+			</tr>
+			<tr>
+					<td><strong>Reaver</strong></td>
+					<td>WPS 破解</td>
+					<td><code>reaver -i wlan0mon -b 00:11:22:33:44:55</code></td>
+			</tr>
+			<tr>
+					<td><strong>Wifite</strong></td>
+					<td>自动化无线攻击工具</td>
+					<td><code>wifite --wps --bully</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="8-社会工程学"><strong>8. 社会工程学</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Social-Engineer Toolkit (SET)</strong></td>
-          <td>社会工程学攻击框架</td>
-          <td>图形化界面，选择攻击模块即可</td>
-      </tr>
-      <tr>
-          <td><strong>Phishing Frenzy</strong></td>
-          <td>钓鱼攻击平台</td>
-          <td>图形化界面，配置钓鱼页面</td>
-      </tr>
-      <tr>
-          <td><strong>Gophish</strong></td>
-          <td>开源钓鱼框架</td>
-          <td>图形化界面，配置邮件模板</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Social-Engineer Toolkit (SET)</strong></td>
+					<td>社会工程学攻击框架</td>
+					<td>图形化界面，选择攻击模块即可</td>
+			</tr>
+			<tr>
+					<td><strong>Phishing Frenzy</strong></td>
+					<td>钓鱼攻击平台</td>
+					<td>图形化界面，配置钓鱼页面</td>
+			</tr>
+			<tr>
+					<td><strong>Gophish</strong></td>
+					<td>开源钓鱼框架</td>
+					<td>图形化界面，配置邮件模板</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="9-逆向工程"><strong>9. 逆向工程</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Ghidra</strong></td>
-          <td>逆向工程分析</td>
-          <td>图形化界面，加载二进制文件</td>
-      </tr>
-      <tr>
-          <td><strong>Radare2</strong></td>
-          <td>命令行逆向工具</td>
-          <td><code>r2 -A binary_file</code></td>
-      </tr>
-      <tr>
-          <td><strong>IDA Pro</strong></td>
-          <td>高级逆向工程工具</td>
-          <td>图形化界面，加载二进制文件</td>
-      </tr>
-      <tr>
-          <td><strong>Binwalk</strong></td>
-          <td>固件分析与提取</td>
-          <td><code>binwalk firmware.bin</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Ghidra</strong></td>
+					<td>逆向工程分析</td>
+					<td>图形化界面，加载二进制文件</td>
+			</tr>
+			<tr>
+					<td><strong>Radare2</strong></td>
+					<td>命令行逆向工具</td>
+					<td><code>r2 -A binary_file</code></td>
+			</tr>
+			<tr>
+					<td><strong>IDA Pro</strong></td>
+					<td>高级逆向工程工具</td>
+					<td>图形化界面，加载二进制文件</td>
+			</tr>
+			<tr>
+					<td><strong>Binwalk</strong></td>
+					<td>固件分析与提取</td>
+					<td><code>binwalk firmware.bin</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="10-其他实用工具"><strong>10. 其他实用工具</strong></h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具名称</th>
-          <th>用途</th>
-          <th>示例命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Wireshark</strong></td>
-          <td>网络流量分析</td>
-          <td>图形化界面，加载抓包文件</td>
-      </tr>
-      <tr>
-          <td><strong>Tcpdump</strong></td>
-          <td>命令行抓包工具</td>
-          <td><code>tcpdump -i eth0 -w capture.pcap</code></td>
-      </tr>
-      <tr>
-          <td><strong>Netcat</strong></td>
-          <td>网络调试与后门</td>
-          <td><code>nc -lvp 4444</code></td>
-      </tr>
-      <tr>
-          <td><strong>Ettercap</strong></td>
-          <td>ARP 欺骗与中间人攻击</td>
-          <td><code>ettercap -T -i eth0 -M arp</code></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具名称</th>
+					<th>用途</th>
+					<th>示例命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Wireshark</strong></td>
+					<td>网络流量分析</td>
+					<td>图形化界面，加载抓包文件</td>
+			</tr>
+			<tr>
+					<td><strong>Tcpdump</strong></td>
+					<td>命令行抓包工具</td>
+					<td><code>tcpdump -i eth0 -w capture.pcap</code></td>
+			</tr>
+			<tr>
+					<td><strong>Netcat</strong></td>
+					<td>网络调试与后门</td>
+					<td><code>nc -lvp 4444</code></td>
+			</tr>
+			<tr>
+					<td><strong>Ettercap</strong></td>
+					<td>ARP 欺骗与中间人攻击</td>
+					<td><code>ettercap -T -i eth0 -M arp</code></td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="-工具链集成与自动化"><strong>🔧 工具链集成与自动化</strong></h3>
