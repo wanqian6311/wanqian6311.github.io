@@ -487,7 +487,16 @@
 <h4 id="1-使用自动化框架"><strong>1. 使用自动化框架</strong></h4>
 <ul>
 <li>
-<p><strong>AutoRecon</strong>：</p>]]></description></item><item><title>等级保护（第一阶段）学习笔记</title><link>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</link><pubDate>Wed, 20 Mar 2024 10:40:32 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</guid><description><![CDATA[<h1 id="等级保护第一阶段学习笔记">等级保护（第一阶段）学习笔记</h1>
+<p><strong>AutoRecon</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">autorecon 10.10.11.51
+</span></span></code></pre></div><p>自动执行 Nmap、Nikto、Dirb 等工具，生成结构化报告。</p>
+</li>
+<li>
+<p><strong>Recon-ng</strong>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">recon-ng -m recon/domains-hosts/shodan_hostname -c <span class="s2">&#34;set SOURCE sequel.htb&#34;</span>
+</span></span></code></pre></div><p>自动化信息收集与漏洞扫描。</p>
+</li>
+</ul>]]></description></item><item><title>等级保护（第一阶段）学习笔记</title><link>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</link><pubDate>Wed, 20 Mar 2024 10:40:32 +0800</pubDate><author>Levin</author><guid>https://wanqian6311.github.io/blog/posts/dengbaoceshixuexibiji/</guid><description><![CDATA[<h1 id="等级保护第一阶段学习笔记">等级保护（第一阶段）学习笔记</h1>
 <p></p>
 <h2 id="网络安全等级保护的基本含义">网络安全等级保护的基本含义</h2>
 <ul>
